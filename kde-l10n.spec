@@ -34,8 +34,6 @@ Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
 	done\
 	)
 }
-# copy from kde-l10n-4.4.5, it only contains kdepim translations
-Source500: kde-l10n-kdepim-4.4.5.tar.bz2
 BuildRequires: findutils
 BuildRequires: gettext
 BuildRequires: docbook-style-xsl
@@ -1764,15 +1762,8 @@ done
 tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.bz2
 %endif
 
-# upstream patches
-bzip2 -dc %{SOURCE500} | tar -xf -
-
 %build
 for lang in %langlist ; do
-if [ -d "%_builddir/%{name}-%{version}/%{name}-$lang-%{version}" -a -d "%_builddir/%{name}-%{version}/kde-l10n-4.4.5/kde-l10n-$lang-4.4.5" ]; then
-    cp -a %_builddir/%{name}-%{version}/kde-l10n-4.4.5/kde-l10n-$lang-4.4.5/* %_builddir/%{name}-%{version}/%{name}-$lang-%{version}/
-    rm -rfv %_builddir/%{name}-%{version}/kde-l10n-4.4.5/kde-l10n-$lang-4.4.5
-fi
 #  if [ -d "%_builddir/%{name}-%{version}/%{name}-$i-%{version}" ]; then
 #  pushd %_builddir/%{name}-%{version}/%{name}-$i-%{version}
 #  for j in . sr@latin ; do
