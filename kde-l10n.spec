@@ -16,7 +16,7 @@
 
 Name: kde-l10n
 Version: 4.6.4
-Release: 1
+Release: 2
 Epoch: 3
 Url: http://www.kde.org
 Summary: Internationalization support for KDE
