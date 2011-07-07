@@ -10,13 +10,13 @@
 
 %define build_ca_valencia 1
 
-%{expand:%(for lang in %disabled_langs; do echo "%%{expand:%%globe build_$lang 0"}; done)}
+%{expand:%(for lang in %disabled_langs; do echo "%%{expand:%%global build_$lang 0"}; done)}
 
-%{expand:%(for lang in %langlist; do echo "%%{expand:%%globe build_$lang 1"}; done)}
+%{expand:%(for lang in %langlist; do echo "%%{expand:%%global build_$lang 1"}; done)}
 
 Name: kde-l10n
 Version: 4.6.4
-Release: 2
+Release: 3
 Epoch: 3
 Url: http://www.kde.org
 Summary: Internationalization support for KDE
@@ -53,6 +53,7 @@ Provides: %{name} = %{version}
 Requires: locales-en
 Provides: %{name}-American
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-en_US
 %description en_US
 %{summary}.
 
@@ -68,9 +69,9 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Afrikaans = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-af
 %description af
 %{summary}.
-
 %files af
 
 %{_datadir}/locale/af/LC_MESSAGES/*
@@ -86,7 +87,7 @@ Provides: %{name} = %{version}
 Requires: locales-ar
 Provides: %{name}-Arabic = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
-
+%rename	kde4-l10n-ar
 %description ar
 %{summary}.
 
@@ -105,7 +106,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Azerbaijani = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
-
+%rename	kde4-l10n-az
 %description az
 %{summary}.
 
@@ -124,7 +125,7 @@ Provides: %{name} = %{version}
 Requires: locales-eu
 Provides: %{name}-Basque = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
-
+%rename	kde4-l10n-eu
 %description eu
 %{summary}.
 
@@ -142,7 +143,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Belarusian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
-
+%rename	kde4-l10n-be
 %description be
 %{summary}.
 
@@ -161,7 +162,7 @@ Requires: locales-bn
 Provides: %{name}-Bengali-India = %{version}-%{release}
 Provides: %{name}-Bengali = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
-
+%rename	kde4-l10n-bn_IN
 %description bn_IN
 %{summary}.
 
@@ -180,6 +181,7 @@ Provides: %{name} = %{version}
 Requires: locales-bg
 Provides: %{name}-Bulgarian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-bg
 %description bg
 %{summary}.
 
@@ -198,6 +200,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Tibetan = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-bo
 %description bo
 %{summary}.
 
@@ -215,6 +218,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Breton = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-br
 %description br
 %{summary}.
 
@@ -232,6 +236,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Bosnian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-bs
 %description bs
 %{summary}.
 
@@ -250,6 +255,7 @@ Provides: %{name} = %{version}
 Requires: locales-ca
 Provides: %{name}-Catalan = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ca
 %description ca
 %{summary}.
 
@@ -273,6 +279,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Catalan-Valencian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ca-valencia
 %description ca-valencia
 %{summary}.
 
@@ -291,6 +298,7 @@ Provides: %{name} = %{version}
 Requires: locales-cs
 Provides: %{name}-Czech = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-cs
 %description cs
 %{summary}.
 
@@ -313,6 +321,7 @@ Provides: %{name} = %{version}
 Requires: locales-pl
 Provides: %{name}-Kashubian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-csb
 %description csb
 %{summary}.
 
@@ -330,6 +339,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Welsh = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-cy
 %description cy
 %{summary}.
 
@@ -348,6 +358,7 @@ Provides: %{name} = %{version}
 Requires: locales-da
 Provides: %{name}-Danish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-da
 %description da
 %{summary}.
 
@@ -372,6 +383,7 @@ Provides: %{name} = %{version}
 Requires: locales-de
 Provides: %{name}-German = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-de
 %description de
 %{summary}.
 
@@ -398,6 +410,7 @@ Provides: %{name} = %{version}
 Requires: locales-el
 Provides: %{name}-Greek = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-el
 %description el
 %{summary}.
 
@@ -420,6 +433,7 @@ Provides: %{name} = %{version}
 Requires: locales-gu
 Provides: %{name}-Gujarati = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-gu
 %description gu
 %{summary}.
 
@@ -438,6 +452,7 @@ Provides: %{name} = %{version}
 Requires: locales-en
 Provides: %{name}-British
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-en_GB
 %description en_GB
 %{summary}.
 
@@ -462,6 +477,7 @@ Provides: %{name} = %{version}
 Requires: locales-eo
 Provides: %{name}-Esperanto = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-eo
 %description eo
 %{summary}.
 
@@ -481,6 +497,7 @@ Provides: %{name} = %{version}
 Requires: locales-es
 Provides: %{name}-Spanish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-es
 %description es
 %{summary}.
 
@@ -527,6 +544,7 @@ Provides: %{name} = %{version}
 Requires: locales-fa
 Provides: %{name}-Farsi = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-fa
 %description fa
 %{summary}.
 
@@ -545,6 +563,7 @@ Provides: %{name} = %{version}
 Requires: locales-fi
 Provides: %{name}-Finnish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-fi
 %description fi
 %{summary}.
 
@@ -566,6 +585,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Faroese = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-fo
 %description fo
 %{summary}.
 
@@ -585,6 +605,7 @@ Requires: locales-fr
 Provides: %{name}-French = %{version}-%{release}
 Conflicts: nepomuk-scribo < 1:0.6.1-1
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-fr
 %description fr
 %{summary}.
 
@@ -608,6 +629,7 @@ Provides: %{name} = %{version}
 Requires: locales-fy
 Provides: %{name}-Frisian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-fy
 %description fy
 %{summary}.
 
@@ -627,6 +649,7 @@ Provides: %{name} = %{version}
 Requires: locales-ga
 Provides: %{name}-Irish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ga
 %description ga
 %{summary}.
 
@@ -649,6 +672,7 @@ Provides: %{name} = %{version}
 Requires: locales-gl
 Provides: %{name}-Galician = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-gl
 %description gl
 %{summary}.
 
@@ -692,6 +716,7 @@ Provides: %{name} = %{version}
 Requires: locales-hi
 Provides: %{name}-Hindi = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-hi
 %description hi
 %{summary}.
 
@@ -710,6 +735,7 @@ Provides: %{name} = %{version}
 Requires: locales-hne
 Provides: %{name}-Chhattisgarhi = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-hne
 %description hne
 %{summary}.
 
@@ -728,6 +754,7 @@ Provides: %{name} = %{version}
 Requires: locales-hr
 Provides: %{name}-Croatian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-hr
 %description hr
 %{summary}.
 
@@ -747,6 +774,7 @@ Provides: %{name} = %{version}
 Requires: locales-hu
 Provides: %{name}-Hungarian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-hu
 %description hu
 %{summary}.
 
@@ -768,6 +796,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Interlingua = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ia
 %description ia
 %{summary}.
 
@@ -785,6 +814,7 @@ Provides: %{name} = %{version}
 Requires: locales-id
 Provides: %{name}-Indonesian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-id
 %description id
 %{summary}.
 
@@ -803,6 +833,7 @@ Provides: %{name} = %{version}
 Requires: locales-is
 Provides: %{name}-Icelandic = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-is
 %description is
 %{summary}.
 
@@ -821,6 +852,7 @@ Provides: %{name} = %{version}
 Requires: locales-it
 Provides: %{name}-Italian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-it
 %description it
 %{summary}.
 
@@ -845,6 +877,7 @@ Provides: %{name} = %{version}
 Requires: locales-ja
 Provides: %{name}-Japanese = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ja
 %description ja
 %{summary}.
 
@@ -865,6 +898,7 @@ Provides: %{name} = %{version}
 Requires: locales-kn
 Provides: %{name}-Kannada = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-kn
 %description kn
 %{summary}.
 
@@ -883,6 +917,7 @@ Provides: %{name} = %{version}
 Requires: locales-kk
 Provides: %{name}-Kazakh = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-kk
 %description kk
 %{summary}.
 
@@ -901,6 +936,7 @@ Provides: %{name} = %{version}
 Requires: locales-km
 Provides: %{name}-Khmer = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-km
 %description km
 %{summary}.
 
@@ -920,6 +956,7 @@ Provides: %{name} = %{version}
 Requires: locales-ko
 Provides: %{name}-Korean = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ko
 %description ko
 %{summary}.
 
@@ -940,6 +977,7 @@ Provides: %{name} = %{version}
 Requires: locales-ku
 Provides: %{name}-Kurdish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ku
 %description ku
 %{summary}.
 
@@ -958,6 +996,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Lao = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-lo
 %description lo
 %{summary}.
 
@@ -976,6 +1015,7 @@ Provides: %{name} = %{version}
 Requires: locales-lt
 Provides: %{name}-Lithuanian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-lt
 %description lt
 %{summary}.
 
@@ -997,6 +1037,7 @@ Provides: %{name} = %{version}
 Requires: locales-lv
 Provides: %{name}-Latvian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-lv
 %description lv
 %{summary}.
 
@@ -1016,6 +1057,7 @@ Provides: %{name} = %{version}
 Requires: locales-nds
 Provides: %{name}-LowSaxon = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-nds
 %description nds
 %{summary}.
 
@@ -1040,6 +1082,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Maori = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-mi
 %description mi
 %{summary}.
 
@@ -1058,6 +1101,7 @@ Provides: %{name} = %{version}
 Requires: locales-mk
 Provides: %{name}-Macedonian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-mk
 %description mk
 %{summary}.
 
@@ -1076,6 +1120,7 @@ Provides: %{name} = %{version}
 Requires: locales-mai
 Provides: %{name}-Maithili = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-mai
 %description mai
 %{summary}.
 
@@ -1094,6 +1139,7 @@ Provides: %{name} = %{version}
 Requires: locales-ml
 Provides: %{name}-Malayalam = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ml
 %description ml
 %{summary}.
 
@@ -1113,6 +1159,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Maltese = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-mt
 %description mt
 %{summary}.
 
@@ -1131,6 +1178,7 @@ Provides: %{name} = %{version}
 Requires: locales-ca
 Provides: %{name}-Marathi = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-mr
 %description mr
 %{summary}.
 
@@ -1149,6 +1197,7 @@ Provides: %{name} = %{version}
 Requires: locales-ne
 Provides: %{name}-Nepali = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ne
 %description ne
 %{summary}.
 
@@ -1167,6 +1216,7 @@ Provides: %{name} = %{version}
 Requires: locales-nl
 Provides: %{name}-nl = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-nl
 %description nl
 %{summary}.
 
@@ -1194,6 +1244,7 @@ Provides: %{name} = %{version}
 Requires: locales-se
 Provides: %{name}-NorthernSami = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-se
 %description se
 %{summary}.
 
@@ -1212,6 +1263,7 @@ Provides: %{name} = %{version}
 Requires: locales-nb
 Provides: %{name}-Norwegian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-nb
 %description nb
 %{summary}.
 
@@ -1239,6 +1291,7 @@ Provides: %{name} = %{version}
 Requires: locales-nn
 Provides: %{name}-Norwegian-Nynorsk = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-nn
 %description nn
 %{summary}.
 
@@ -1260,6 +1313,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Occitan = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-oc
 %description oc
 %{summary}.
 
@@ -1278,6 +1332,7 @@ Provides: %{name} = %{version}
 Requires: locales-pl
 Provides: %{name}-Polish= %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-pl
 %description pl
 %{summary}.
 
@@ -1301,6 +1356,7 @@ Provides: %{name} = %{version}
 Requires: locales-pt
 Provides: %{name}-Portuguese = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-pt
 %description pt
 %{summary}.
 
@@ -1324,6 +1380,7 @@ Provides: %{name} = %{version}
 Requires: locales-pa
 Provides: %{name}-Punjabi = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-pa
 %description pa
 %{summary}.
 
@@ -1342,6 +1399,7 @@ Provides: %{name} = %{version}
 Requires: locales-pt
 Provides: %{name}-Brazil = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-pt_BR
 %description pt_BR
 %{summary}.
 
@@ -1365,6 +1423,7 @@ Provides: %{name} = %{version}
 Requires: locales-ro
 Provides: %{name}-Romanian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ro
 %description ro
 %{summary}.
 
@@ -1386,6 +1445,7 @@ Provides: %{name} = %{version}
 Requires: locales-ru
 Provides: %{name}-Russian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ru
 %description ru
 %{summary}.
 
@@ -1414,6 +1474,7 @@ Provides: %{name} = %{version}
 Requires: locales-si
 Provides: %{name}-Sinhala = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-si
 %description si
 %{summary}.
 
@@ -1432,6 +1493,7 @@ Provides: %{name} = %{version}
 Requires: locales-sk
 Provides: %{name}-Slovak = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-sk
 %description sk
 %{summary}.
 
@@ -1450,6 +1512,7 @@ Provides: %{name} = %{version}
 Requires: locales-sl
 Provides: %{name}-Slovenian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-sl
 %description sl
 %{summary}.
 
@@ -1475,6 +1538,7 @@ Provides: %{name} = %{version}
 Requires: locales-sr
 Provides: %{name}-Serbian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-sr
 %description sr
 %{summary}.
 
@@ -1519,6 +1583,7 @@ Provides: %{name} = %{version}
 Requires: locales-sv
 Provides: %{name}-Swedish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-sv
 %description sv
 %{summary}.
 
@@ -1542,6 +1607,7 @@ Provides: %{name} = %{version}
 Requires: locales-ta
 Provides: %{name}-Tamil = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ta
 %description ta
 %{summary}.
 
@@ -1560,6 +1626,7 @@ Provides: %{name} = %{version}
 Requires: locales-tg
 Provides: %{name}-Tajik = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-tg
 %description tg
 %{summary}.
 
@@ -1580,6 +1647,7 @@ Provides: %{name} = %{version}
 Requires: locales-th
 Provides: %{name}-Thai = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-th
 %description th
 %{summary}.
 
@@ -1600,6 +1668,7 @@ Provides: %{name} = %{version}
 Requires: locales-tr
 Provides: %{name}-Turkish = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-tr
 %description tr
 %{summary}.
 
@@ -1621,6 +1690,7 @@ Provides: %{name} = %{version}
 Requires: locales-uk
 Provides: %{name}-Ukrainian = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-uk
 %description uk
 %{summary}.
 
@@ -1645,6 +1715,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Venda = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-ven
 %description ven
 %{summary}.
 
@@ -1662,6 +1733,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Vietnamese= %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-vi
 %description vi
 %{summary}.
 
@@ -1680,6 +1752,7 @@ Provides: %{name} = %{version}
 Requires: locales-wa
 Provides: %{name}-Walloon = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-wa
 %description wa
 %{summary}.
 
@@ -1699,6 +1772,7 @@ Group: System/Internationalization
 Provides: %{name} = %{version}
 Provides: %{name}-Xhosa = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-xh
 %description xh
 %{summary}.
 
@@ -1716,6 +1790,7 @@ Provides: %{name} = %{version}
 Requires: locales-zh
 Provides: %{name}-Chinese = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-zh_CN
 %description zh_CN
 %{summary}.
 
@@ -1739,6 +1814,7 @@ Provides: %{name} = %{version}
 Requires: locales-zh
 Provides: %{name}-Chinese-Traditional = %{version}-%{release}
 Conflicts: konq-plugins < 1:4.6.1
+%rename	kde4-l10n-zh_TW
 %description zh_TW
 %{summary}.
 
