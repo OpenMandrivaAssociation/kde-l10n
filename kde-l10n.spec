@@ -10,9 +10,9 @@
 
 %define build_ca_valencia 1
 
-%{expand:%(for lang in %disabled_langs; do echo "%%{expand:%%define build_$lang 0"}; done)}
+%{expand:%(for lang in %disabled_langs; do echo "%%{expand:%%globe build_$lang 0"}; done)}
 
-%{expand:%(for lang in %langlist; do echo "%%{expand:%%define build_$lang 1"}; done)}
+%{expand:%(for lang in %langlist; do echo "%%{expand:%%globe build_$lang 1"}; done)}
 
 Name: kde-l10n
 Version: 4.6.4
