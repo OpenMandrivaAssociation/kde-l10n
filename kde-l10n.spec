@@ -16,7 +16,7 @@
 
 Name: kde-l10n
 Version: 4.6.4
-Release: 3
+Release: 4
 Epoch: 3
 Url: http://www.kde.org
 Summary: Internationalization support for KDE
@@ -34,6 +34,7 @@ Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
 	done\
 	)
 }
+Patch0: kde-l10n-ru-4.6.4-kdebase1.patch
 BuildRequires: findutils
 BuildRequires: gettext
 BuildRequires: docbook-style-xsl
@@ -1833,6 +1834,8 @@ for lang in %langlist ; do
   echo $lang | grep -v '^#' && \
   bzip2 -dc %{_sourcedir}/%{name}-$lang-%{version}.tar.bz2 | tar -xf -
 done
+
+%patch0 -p0
 
 %if %{build_ca_valencia}
 tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.bz2
