@@ -8,7 +8,7 @@
 
 %define disabled_langs af az be bn_IN bo br csb cy eo fa fo fy hne ku gu hi lo mai mi mk ml mt mr ne se oc si sr ta tg ven vi xh
 
-%define build_ca_valencia 1
+%define build_ca_valencia 0
 
 #%{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0"}; done)}
 #%{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1"}; done)}
