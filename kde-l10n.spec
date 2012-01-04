@@ -25,7 +25,7 @@ License: LGPLv2
 BuildArch: noarch
 # l10n sources
 # list ca@valencia tarball separately due to the @ in the tarball name
-Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
+#Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
 %{expand:%(\
     i=2; \
     for lang in %langlist; do\
