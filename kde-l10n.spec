@@ -18,6 +18,7 @@
 Name: kde-l10n
 Version: 4.7.95
 Release: %mkrel 1
+Epoch: 3
 Url: http://www.kde.org
 Summary: Internationalization support for KDE
 Group: System/Internationalization
