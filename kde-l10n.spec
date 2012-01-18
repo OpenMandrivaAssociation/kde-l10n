@@ -1639,7 +1639,8 @@ Conflicts: konq-plugins < 1:4.6.1
 %_kde_appsdir/step/objinfo/l10n/uk/
 %_kde_appsdir/kvtml/uk/
 %_kde_appsdir/klettres/uk/
-
+%_kde_docdir/HTML/uk/*
+%_kde_mandir/uk/*/*
 %endif
 
 #------------------------------------------------------------------------------
