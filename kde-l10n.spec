@@ -1786,11 +1786,11 @@ Conflicts: konq-plugins < 1:4.6.1
 
 for lang in %{langlist} ; do
   echo $lang | grep -v '^#' && \
-  bzip2 -dc %{_sourcedir}/%{name}-$lang-%{version}.tar.bz2 | tar -xf -
+  bzip2 -dc %{_sourcedir}/%{name}-$lang-%{version}.tar.xz | tar -xf -
 done
 
 %if %{build_ca_valencia}
-tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.bz2
+tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %endif
 
 # upstream patches
