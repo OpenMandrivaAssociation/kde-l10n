@@ -597,6 +597,7 @@ Conflicts: konq-plugins < 1:4.6.1
 
 %files fr
 %lang(fr) %_kde_datadir/locale/fr/LC_MESSAGES/*
+%_kde_datadir/locale/fr/LC_SCRIPTS/
 %_kde_datadir/locale/fr/entry.desktop
 %_kde_appsdir/ktuberling/sounds/fr*
 %_kde_appsdir/khangman/fr.txt
@@ -1339,6 +1340,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %files pa
 %lang(pa) %_kde_datadir/locale/pa/LC_MESSAGES/*
 %_kde_datadir/locale/pa/entry.desktop
+%_kde_appsdir/kvtml/pa/
 %endif
 
 #------------------------------------------------------------------------------
