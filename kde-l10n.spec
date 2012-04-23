@@ -4,9 +4,9 @@
 # $ ls SOURCES/kde-l10n*tar.bz2 | grep -v @valencia | awk -F- '{print $3}' | tr '\n' ' '
 #
 # Note: ca@valencia is treated differently because of the @ in the tarball name
-%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hr hu ia id is it ja kk km kn ko lt lv nb nds nl nn pa pl pt ro ru si sk sl sv th tr uk ug wa zh_CN zh_TW
+%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hr hu ia id is it ja kk km ko lt lv nb nds nl nn pa pl pt ro ru si sk sl sv th tr uk ug wa zh_CN zh_TW
 
-%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne ku gu hi lo mai mi mk ml mt mr ne pt_BR se oc sr ta tg ven vi xh
+%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne kn ku gu hi lo mai mi mk ml mt mr ne pt_BR se oc sr ta tg ven vi xh
 
 %define build_ca_valencia 0
 
