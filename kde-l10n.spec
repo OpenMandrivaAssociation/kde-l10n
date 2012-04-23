@@ -16,7 +16,7 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name: kde-l10n
-Version: 4.7.97
+Version: 4.8.2
 Release: 1
 Epoch: 3
 Url: http://www.kde.org
@@ -30,7 +30,7 @@ BuildArch: noarch
 %{expand:%(\
     i=2; \
     for lang in %langlist; do\
-        echo "%%{expand:Source$i: %%{_sourcedir}/%%{name}-$lang-%%{version}.tar.bz2}";\
+        echo "%%{expand:Source$i: %%{_sourcedir}/%%{name}-$lang-%%{version}.tar.xz}";\
         i=$[i+1];\
     done\
     )
