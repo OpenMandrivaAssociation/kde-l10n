@@ -4,9 +4,9 @@
 # $ ls SOURCES/kde-l10n*tar.bz2 | grep -v @valencia | awk -F- '{print $3}' | tr '\n' ' '
 #
 # Note: ca@valencia is treated differently because of the @ in the tarball name
-%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hr hu ia id is it ja kk km ko lt lv nb nds nl nn pa pl pt ro ru si sk sl sv th tr uk ug wa zh_CN zh_TW
+%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hr hu ia id is it ja kk km ko lt lv nb nds nl nn pa pl pt pt_BR ro ru si sk sl sv th tr uk ug wa zh_CN zh_TW
 
-%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne kn ku gu hi lo mai mi mk ml mt mr ne pt_BR se oc sr ta tg ven vi xh
+%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne kn ku gu hi lo mai mi mk ml mt mr ne se oc sr ta tg ven vi xh
 
 %define build_ca_valencia 0
 
@@ -15,15 +15,15 @@
 %{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0}"; done)}
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
-Name: kde-l10n
-Version: 4.8.2
-Release: 1
-Epoch: 3
-Url: http://www.kde.org
-Summary: Internationalization support for KDE
-Group: System/Internationalization
-License: LGPLv2
-BuildArch: noarch
+Name:		kde-l10n
+Version:	4.8.2
+Release:	2
+Epoch:		3
+Url:		http://www.kde.org
+Summary:	Internationalization support for KDE
+Group:		System/Internationalization
+License:	LGPLv2
+BuildArch:	noarch
 # l10n sources
 # list ca@valencia tarball separately due to the @ in the tarball name
 #Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
@@ -36,9 +36,9 @@ BuildArch: noarch
     )
 }
 
-BuildRequires: docbook-style-xsl
-BuildRequires: docbook-dtd42-xml
-BuildRequires: kdelibs4-devel >= %{version}
+BuildRequires:	docbook-style-xsl
+BuildRequires:	docbook-dtd42-xml
+BuildRequires:	kdelibs4-devel >= %{version}
 
 %description
 Internationalization support for KDE.
