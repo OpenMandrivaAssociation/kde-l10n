@@ -16,8 +16,8 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version:	4.8.2
-Release:	2
+Version:	4.8.3
+Release:	1
 Epoch:		3
 Url:		http://www.kde.org
 Summary:	Internationalization support for KDE
