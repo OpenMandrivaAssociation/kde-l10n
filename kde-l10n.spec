@@ -16,7 +16,7 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version:	4.8.4
+Version:	4.8.97
 Release:	1
 Epoch:		3
 Url:		http://www.kde.org
