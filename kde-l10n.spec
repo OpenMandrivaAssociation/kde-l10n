@@ -386,6 +386,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %_kde_datadir/locale/de/entry.desktop
 %_kde_appsdir/klettres/de/
 %_kde_appsdir/ktuberling/sounds/de*
+%_kde_appsdir/kajongg/voices/de/
 %_kde_appsdir/khangman/de.txt
 %_kde_appsdir/kvtml/de/
 %_kde_appsdir/step/objinfo/l10n/de/
@@ -661,6 +662,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %files gl
 %lang(gl) %_kde_datadir/locale/gl/LC_MESSAGES/*
 %_kde_datadir/locale/gl/entry.desktop
+%_kde_appsdir/kanagram/gl.txt
 %_kde_appsdir/kvtml/gl/
 %_kde_appsdir/ktuberling/sounds/gl.soundtheme
 %_kde_appsdir/ktuberling/sounds/gl/
@@ -760,6 +762,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %lang(hu) %_kde_datadir/locale/hu/LC_MESSAGES/*
 %_kde_datadir/locale/hu/entry.desktop
 %_kde_appsdir/khangman/hu.txt
+%_kde_appsdir/kanagram/hu.txt
 %_kde_appsdir/kvtml/hu/
 %_kde_appsdir/klettres/hu/
 %_kde_docdir/HTML/hu/*
@@ -1616,6 +1619,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %_kde_appsdir/khangman/tr.txt
 %_kde_appsdir/kvtml/tr/
 %_kde_docdir/HTML/tr/*
+%_kde_mandir/tr/*/*
 %endif
 
 #------------------------------------------------------------------------------
