@@ -662,7 +662,7 @@ Conflicts: konq-plugins < 1:4.6.1
 %files gl
 %lang(gl) %_kde_datadir/locale/gl/LC_MESSAGES/*
 %_kde_datadir/locale/gl/entry.desktop
-%_kde_appsdir/kanagram/gl.txt
+%_kde_appsdir/khangman/gl.txt
 %_kde_appsdir/kvtml/gl/
 %_kde_appsdir/ktuberling/sounds/gl.soundtheme
 %_kde_appsdir/ktuberling/sounds/gl/
