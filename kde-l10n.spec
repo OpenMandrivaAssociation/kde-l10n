@@ -16,8 +16,8 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version:	4.8.97
-Release:	1
+Version: 4.9.0
+Release: 1
 Epoch:		3
 Url:		http://www.kde.org
 Summary:	Internationalization support for KDE
@@ -30,7 +30,7 @@ BuildArch:	noarch
 %{expand:%(\
     i=2; \
     for lang in %langlist; do\
-        echo "%%{expand:Source$i: ftp://ftp.kde.org/pub/kde/unstable/%%{version}/src/%%{name}/%%{name}-$lang-%%{version}.tar.xz}";\
+        echo "%%{expand:Source$i: ftp://ftp.kde.org/pub/kde/stable/%%{version}/src/%%{name}/%%{name}-$lang-%%{version}.tar.xz}";\
         i=$[i+1];\
     done\
     )
