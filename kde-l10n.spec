@@ -16,8 +16,8 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version: 4.9.2
-Release: 1
+Version:	4.9.4
+Release:	1
 Epoch:		3
 Url:		http://www.kde.org
 Summary:	Internationalization support for KDE
@@ -35,7 +35,7 @@ BuildArch:	noarch
     done\
     )
 }
-Patch0:		kde-l10n-ru-4.8.4-translations.patch
+Source100:	kde-l10n.rpmlintrc
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
@@ -616,6 +616,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files fr
 %lang(fr) %{_kde_datadir}/locale/fr/LC_MESSAGES/*
+%{_kde_datadir}/locale/fr/LC_SCRIPTS/
 %{_kde_datadir}/locale/fr/entry.desktop
 %{_kde_appsdir}/ktuberling/sounds/fr*
 %{_kde_appsdir}/khangman/fr.txt
@@ -1867,10 +1868,6 @@ done
 tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %endif
 
-#patch0 -p0
-
-# upstream patches
-
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
@@ -1900,3 +1897,98 @@ pushd %{name}-ca@valencia-%{version}
      %makeinstall_std -C build
 popd
 %endif
+
+%changelog
+* Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.4-1
+- New version 4.9.4
+
+* Wed Nov 07 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.3-1
+- New version 4.9.3
+
+* Thu Oct 04 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.2-1
+- New version 4.9.2
+- Update files for fr locale
+
+* Sat Sep 08 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.1-1
+- New version 4.9.1
+
+* Mon Aug 06 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.0-1
+- New version 4.9.0
+
+* Mon Jul 16 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.8.97-1
+- New version 4.8.97
+
+* Thu Jun 28 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.8.95-1
+- Update to 4.8.95
+- Update file list
+- Disable kde-l10n-ru-4.8.4-translations patch
+
+* Fri Jun 08 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.4-69.1mib2010.2
+- New version 4.8.4
+- Add kde-l10n-ru-4.8.4-translations patch from Rosa
+- MIB (Mandriva International Backports)
+
+* Fri May 04 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.3-69.1mib2010.2
+- New version 4.8.3
+- MIB (Mandriva International Backports)
+
+* Wed Apr 04 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.2-69.1mib2010.2
+- New version 4.8.2
+- Enable pt_BR language
+- MIB (Mandriva International Backports)
+
+* Wed Mar 07 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.1-69.1mib2010.2
+- New version 4.8.1
+- Enable he, id and ug languages again
+- Update file lists for fr and pa packages
+- MIB (Mandriva International Backports)
+
+* Mon Feb 20 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.0-69.1mib2010.2
++ Revision: 762070
+- Backport to 2010.2 for MIB users
+- Disable missing he, id, kn and ug languages
+- MIB (Mandriva International Backports)
+
+* Wed Jan 18 2012 Nicolas Lécureuil <nlecureuil@mandriva.com> 3:4.7.97-1
++ Revision: 762070
+- Enable fa and si
+- Fix uk file list
+- Enable pt
+- Disable pt translation for now
+- New version
+- Add back epoch
+- Remove Source1
+- Disable build_ca_valencia
+- Remove %%rename  as kde4-l10n is on not supported anymore distributions
+- Remove comments
+- Disable build_ca_valencia for now
+- Update spec file ( sync with mageia)
+- New sources
+- New version 4.7.80
+
+  + Zé <ze@mandriva.org>
+    - add 4.7.1 sources
+    - drop old sources
+    - drop old sources
+
+  + vsinitsyn <vsinitsyn>
+    - Updated Russian translation for Dolphin, KSysGuard and Nepomuk (this time correct way)
+    - Revert commit 696126: Never modify tarball directly
+    - Updated Russian translation for Dolphin, KSysGuard and Nepomuk
+
+* Thu Jul 07 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 3:4.6.4-3
++ Revision: 689150
+- fix upgrade from 2009.0 by provides/obsoleting kde4-l10n-foo
+- use %%global, not %%define (which'll break) for loop in %%{expand:...}
+
+* Mon Jun 27 2011 Alex Burmashev <burmashev@mandriva.org> 3:4.6.4-2
++ Revision: 687462
+- updated russian dolphin locale
+
+  + Funda Wang <fwang@mandriva.org>
+    - please remove duplicate translations with kdepim
+
+* Tue Jun 14 2011 Nicolas Lécureuil <nlecureuil@mandriva.com> 3:4.6.4-1
++ Revision: 685093
+- import kde-l10n
+
