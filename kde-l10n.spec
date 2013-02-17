@@ -1529,9 +1529,6 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files sl
 %lang(sl) %{_kde_datadir}/locale/sl/LC_MESSAGES/*
 %{_kde_datadir}/locale/sl/entry.desktop
-%{_kde_appsdir}/ktuberling/sounds/sl*
-%{_kde_appsdir}/khangman/sl.txt
-%{_kde_appsdir}/kvtml/sl/
 %{_kde_docdir}/HTML/sl/*
 %endif
 
@@ -1901,6 +1898,7 @@ popd
 %changelog
 * Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.0-1
 - New version 4.10.0
+- Update files for sl
 
 * Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.4-1
 - New version 4.9.4
