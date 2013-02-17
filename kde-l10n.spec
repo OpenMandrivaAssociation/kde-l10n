@@ -267,6 +267,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ca) %{_kde_datadir}/locale/ca/LC_MESSAGES/*
 %{_kde_datadir}/locale/ca/LC_SCRIPTS/
 %{_kde_datadir}/locale/ca/entry.desktop
+%{_kde_appsdir}/autocorrect/ca.xml
 %{_kde_appsdir}/khangman/ca.txt
 %{_kde_appsdir}/ktuberling/sounds/ca*
 %{_kde_appsdir}/kvtml/ca/
@@ -309,6 +310,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files cs
 %lang(cs) %{_kde_datadir}/locale/cs/LC_MESSAGES/*
 %{_kde_datadir}/locale/cs/entry.desktop
+%{_kde_appsdir}/autocorrect/cs.xml
 %{_kde_appsdir}/khangman/cs.txt
 %{_kde_appsdir}/klettres/cs/
 %{_kde_appsdir}/kvtml/cs/
@@ -395,6 +397,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(de) %{_kde_datadir}/locale/de/LC_MESSAGES/*
 %{_kde_datadir}/locale/de/LC_SCRIPTS/
 %{_kde_datadir}/locale/de/entry.desktop
+%{_kde_appsdir}/autocorrect/de_DE.xml
 %{_kde_appsdir}/kajongg/voices/de/
 %{_kde_appsdir}/klettres/de/
 %{_kde_appsdir}/ktuberling/sounds/de*
@@ -508,6 +511,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files es
 %lang(es) %{_kde_datadir}/locale/es/LC_MESSAGES/*
 %{_kde_datadir}/locale/es/entry.desktop
+%{_kde_appsdir}/autocorrect/es.xml
 %{_kde_appsdir}/ktuberling/sounds/es*
 %{_kde_appsdir}/khangman/es.txt
 %{_kde_appsdir}/klettres/es/
@@ -618,6 +622,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(fr) %{_kde_datadir}/locale/fr/LC_MESSAGES/*
 %{_kde_datadir}/locale/fr/LC_SCRIPTS/
 %{_kde_datadir}/locale/fr/entry.desktop
+%{_kde_appsdir}/autocorrect/fr.xml
 %{_kde_appsdir}/ktuberling/sounds/fr*
 %{_kde_appsdir}/khangman/fr.txt
 %{_kde_appsdir}/kvtml/fr/
@@ -788,6 +793,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files hu
 %lang(hu) %{_kde_datadir}/locale/hu/LC_MESSAGES/*
 %{_kde_datadir}/locale/hu/entry.desktop
+%{_kde_appsdir}/autocorrect/hu.xml
 %{_kde_appsdir}/kanagram/hu.txt
 %{_kde_appsdir}/khangman/hu.txt
 %{_kde_appsdir}/kvtml/hu/
@@ -868,6 +874,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files it
 %lang(it) %{_kde_datadir}/locale/it/LC_MESSAGES/*
 %{_kde_datadir}/locale/it/entry.desktop
+%{_kde_appsdir}/autocorrect/it_IT.xml
 %{_kde_appsdir}/ktuberling/sounds/it*
 %{_kde_appsdir}/klettres/it/
 %{_kde_appsdir}/kvtml/it/
@@ -1076,6 +1083,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files nds
 %lang(nds) %{_kde_datadir}/locale/nds/LC_MESSAGES/*
 %{_kde_datadir}/locale/nds/entry.desktop
+%{_kde_appsdir}/autocorrect/nds.xml
 %{_kde_appsdir}/klettres/nds/
 %{_kde_appsdir}/khangman/nds.txt
 %{_kde_appsdir}/kvtml/nds/
@@ -1466,6 +1474,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ru) %{_kde_datadir}/locale/ru/LC_MESSAGES/*
 %{_kde_datadir}/locale/ru/LC_SCRIPTS/
 %{_kde_datadir}/locale/ru/entry.desktop
+%{_kde_appsdir}/autocorrect/ru_RU.xml
 %{_kde_appsdir}/kvtml/ru/
 %{_kde_appsdir}/katepart/syntax/logohighlightstyle.ru.xml
 %{_kde_appsdir}/klettres/ru
@@ -1706,6 +1715,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(uk) %{_kde_datadir}/locale/uk/LC_MESSAGES/*
 %{_kde_datadir}/locale/uk/LC_SCRIPTS/
 %{_kde_datadir}/locale/uk/entry.desktop
+%{_kde_appsdir}/autocorrect/uk_UA.xml
 %{_kde_appsdir}/ktuberling/sounds/uk*
 %{_kde_appsdir}/step/objinfo/l10n/uk/
 %{_kde_appsdir}/kvtml/uk/
@@ -1901,6 +1911,7 @@ popd
 - New version 4.10.0
 - Update files for sl
 - Update files for lt
+- Add autocorrect files
 
 * Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.4-1
 - New version 4.9.4
