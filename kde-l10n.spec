@@ -1040,6 +1040,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/lt/LC_SCRIPTS/
 %{_kde_datadir}/locale/lt/entry.desktop
 %{_kde_appsdir}/klettres/lt/
+%{_kde_appsdir}/klettres/lt.txt
 %{_kde_appsdir}/ktuberling/sounds/lt/
 %{_kde_appsdir}/ktuberling/sounds/lt.soundtheme
 %{_kde_docdir}/HTML/lt/*
