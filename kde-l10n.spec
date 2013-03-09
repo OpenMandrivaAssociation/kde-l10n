@@ -16,7 +16,7 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version:	4.10.0
+Version:	4.10.1
 Release:	1
 Epoch:		3
 Url:		http://www.kde.org
@@ -1908,6 +1908,9 @@ popd
 %endif
 
 %changelog
+* Sat Mar 09 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.1-1
+- New version 4.10.1
+
 * Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.0-1
 - New version 4.10.0
 - Update files for sl
