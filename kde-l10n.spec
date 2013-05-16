@@ -1879,6 +1879,9 @@ done
 tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %endif
 
+# Translation updates
+cp %{SOURCE101} %{name}-ru-%{version}/messages/kde-workspace/kscreenlocker_greet.po
+
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
@@ -1908,9 +1911,6 @@ pushd %{name}-ca@valencia-%{version}
      %makeinstall_std -C build
 popd
 %endif
-
-# Translation updates
-cp %{SOURCE101} %{name}-ru-%{version}/messages/kde-workspace/kscreenlocker_greet.po
 
 %changelog
 * Tue May 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-2
