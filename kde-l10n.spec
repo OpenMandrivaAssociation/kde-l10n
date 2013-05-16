@@ -17,7 +17,7 @@
 
 Name:		kde-l10n
 Version:	4.10.3
-Release:	1
+Release:	2
 Epoch:		3
 Url:		http://www.kde.org
 Summary:	Internationalization support for KDE
@@ -36,6 +36,8 @@ BuildArch:	noarch
     )
 }
 Source100:	kde-l10n.rpmlintrc
+# Backported from 4.10.4 (? - must be checked)
+Source101:	kscreenlocker_greet-ru.po
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
@@ -1907,9 +1909,13 @@ pushd %{name}-ca@valencia-%{version}
 popd
 %endif
 
+# Translation updates
+cp %{SOURCE101} %{name}-ru-%{version}/messages/kde-workspace/kscreenlocker_greet.po
+
 %changelog
-* Tue May 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-1
+* Tue May 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-2
 - New version 4.10.3
+- Backport kscreenlocker_greet.po ru from KDE 4.10.4
 
 * Wed Apr 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.2-1
 - New version 4.10.2
