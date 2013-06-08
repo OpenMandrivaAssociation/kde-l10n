@@ -16,8 +16,8 @@
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Name:		kde-l10n
-Version:	4.10.3
-Release:	3
+Version:	4.10.4
+Release:	1
 Epoch:		3
 Url:		http://www.kde.org
 Summary:	Internationalization support for KDE
@@ -36,8 +36,6 @@ BuildArch:	noarch
     )
 }
 Source100:	kde-l10n.rpmlintrc
-# Backported from 4.10.4 (? - must be checked)
-Source101:	kscreenlocker_greet-ru.po
 # Extra translations missing in upstream
 Source102:	kfilemodule-ru.po
 Source103:	makekdewidgets-ru.po
@@ -1883,7 +1881,6 @@ tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %endif
 
 # Translation updates
-cp %{SOURCE101} %{name}-ru-%{version}/messages/kde-workspace/kscreenlocker_greet.po
 cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
 cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
 
@@ -1918,6 +1915,10 @@ popd
 %endif
 
 %changelog
+* Wed Jun 05 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.4-1
+- New version 4.10.4
+- Drop external backported kscreenlocker_greet.po ru
+
 * Thu May 23 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-3
 - Add missing ru translations kfilemodule.po and makekdewidgets.po
 
