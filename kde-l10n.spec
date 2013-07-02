@@ -15,15 +15,14 @@
 %{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0}"; done)}
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
+Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	4.10.4
+Version:	4.10.5
 Release:	1
 Epoch:		3
-Url:		http://www.kde.org
-Summary:	Internationalization support for KDE
-Group:		System/Internationalization
 License:	LGPLv2
-BuildArch:	noarch
+Group:		System/Internationalization
+Url:		http://www.kde.org
 # l10n sources
 # list ca@valencia tarball separately due to the @ in the tarball name
 #Source1: kde-l10n-ca@valencia-%{version}.tar.bz2
@@ -42,6 +41,7 @@ Source103:	makekdewidgets-ru.po
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
+BuildArch:	noarch
 
 %description
 Internationalization support for KDE.
@@ -1915,6 +1915,9 @@ popd
 %endif
 
 %changelog
+* Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.5-1
+- New version 4.10.5
+
 * Wed Jun 05 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.4-1
 - New version 4.10.4
 - Drop external backported kscreenlocker_greet.po ru
