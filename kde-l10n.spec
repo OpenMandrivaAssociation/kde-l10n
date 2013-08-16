@@ -1431,6 +1431,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files pt_BR
 %lang(pt_BR) %{_kde_datadir}/locale/pt_BR/LC_MESSAGES/*
 %{_kde_datadir}/locale/pt_BR/entry.desktop
+%{_kde_appsdir}/autocorrect/pt_BR.xml
 %{_kde_appsdir}/khangman/pt_BR.txt
 %{_kde_appsdir}/klettres/pt_BR/*
 %{_kde_appsdir}/kvtml/pt_BR/
@@ -1918,6 +1919,7 @@ popd
 * Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.0-1
 - New version 4.11.0
 - Drop th and si translations
+- Update files list
 
 * Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.5-1
 - New version 4.10.5
