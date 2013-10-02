@@ -10,14 +10,12 @@
 
 %define build_ca_valencia 0
 
-#%{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0"}; done)}
-#%{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1"}; done)}
 %{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0}"; done)}
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	4.11.1
+Version:	4.11.2
 Release:	1
 Epoch:		3
 License:	LGPLv2
@@ -1916,6 +1914,9 @@ popd
 %endif
 
 %changelog
+* Wed Oct 02 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.2-1
+- New version 4.11.2
+
 * Tue Sep 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.1-1
 - New version 4.11.1
 
