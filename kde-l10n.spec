@@ -1542,6 +1542,9 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files sl
 %lang(sl) %{_kde_datadir}/locale/sl/LC_MESSAGES/*
 %{_kde_datadir}/locale/sl/entry.desktop
+%{_kde_appsdir}/khangman/sl.txt
+%{_kde_appsdir}/ktuberling/sounds/sl*
+%{_kde_appsdir}/kvtml/sl/*
 %{_kde_docdir}/HTML/sl/*
 %endif
 
@@ -1608,8 +1611,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(sv) %{_kde_datadir}/locale/sv/LC_MESSAGES/*
 %{_kde_datadir}/locale/sv/entry.desktop
 %{_kde_datadir}/locale/sv/LC_SCRIPTS/
-%{_kde_appsdir}/ktuberling/sounds/sv*
 %{_kde_appsdir}/khangman/sv.txt
+%{_kde_appsdir}/ktuberling/sounds/sv*
 %{_kde_appsdir}/kvtml/sv/
 %{_kde_docdir}/HTML/sv/*
 %{_kde_mandir}/sv/*/*
@@ -1916,6 +1919,7 @@ popd
 %changelog
 * Wed Nov 06 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.3-1
 - New version 4.11.3
+- Update files for sl locale
 
 * Wed Oct 02 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.2-1
 - New version 4.11.2
