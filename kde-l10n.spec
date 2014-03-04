@@ -15,7 +15,7 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	4.12.2
+Version:	4.12.3
 Release:	1
 Epoch:		3
 License:	LGPLv2
@@ -1917,6 +1917,9 @@ popd
 %endif
 
 %changelog
+* Tue Mar 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.3-1
+- New version 4.12.3
+
 * Tue Feb 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.2-1
 - New version 4.12.2
 
