@@ -16,7 +16,7 @@
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
 Version:	4.13.2
-Release:	1
+Release:	2
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
