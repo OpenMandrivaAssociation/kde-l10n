@@ -16,7 +16,7 @@
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
 Version:	4.13.3
-Release:	1
+Release:	2
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -36,6 +36,8 @@ Source100:	kde-l10n.rpmlintrc
 # Extra translations missing in upstream
 Source102:	kfilemodule-ru.po
 Source103:	makekdewidgets-ru.po
+# Backported from 4.14, should be removed later
+Source104:	kcm_baloofile-ru.po
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
@@ -1885,6 +1887,7 @@ tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 # Translation updates
 cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
 cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
+cp %{SOURCE104} %{name}-ru-%{version}/messages/kdelibs/kcm_baloofile.po
 
 %build
 for lang in %{langlist} ; do
@@ -1917,6 +1920,9 @@ popd
 %endif
 
 %changelog
+* Mon Jul 21 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-2
+- Use better kcm_baloofile ru translation
+
 * Tue Jul 15 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-1
 - New version 4.13.3
 - Enable fa locale
