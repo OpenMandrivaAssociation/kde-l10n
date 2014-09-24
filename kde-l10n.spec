@@ -16,7 +16,7 @@
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
 Version:	4.13.3
-Release:	2
+Release:	3
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -38,6 +38,7 @@ Source102:	kfilemodule-ru.po
 Source103:	makekdewidgets-ru.po
 # Backported from 4.14, should be removed later
 Source104:	kcm_baloofile-ru.po
+Source200:	russian-translation-rosa-addon.tar.bz2
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
@@ -1889,6 +1890,11 @@ cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
 cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
 cp %{SOURCE104} %{name}-ru-%{version}/messages/kdelibs/kcm_baloofile.po
 
+# Add extra docbooks
+pushd %{name}-ru-%{version}
+tar -xaf %{SOURCE200}
+popd
+
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
@@ -1920,6 +1926,9 @@ popd
 %endif
 
 %changelog
+* Tue Sep 23 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-3
+- Add extra docbooks for Russian locale
+
 * Mon Jul 21 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-2
 - Use better kcm_baloofile ru translation
 
