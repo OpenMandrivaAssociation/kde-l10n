@@ -36,8 +36,6 @@ Source100:	kde-l10n.rpmlintrc
 # Extra translations missing in upstream
 Source102:	kfilemodule-ru.po
 Source103:	makekdewidgets-ru.po
-# Backported from 4.14, should be removed later
-Source104:	kcm_baloofile-ru.po
 Source200:	russian-translation-rosa-addon.tar.bz2
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
@@ -1888,7 +1886,6 @@ tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 # Translation updates
 cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
 cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
-cp %{SOURCE104} %{name}-ru-%{version}/messages/kdelibs/kcm_baloofile.po
 
 # Add extra docbooks
 pushd %{name}-ru-%{version}
@@ -1928,6 +1925,7 @@ popd
 %changelog
 * Tue Sep 30 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.1-1
 - New version 4.14.1
+- Drop no longer needed kcm_baloofile-ru.po (fixed upsteam)
 
 * Tue Sep 23 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-3
 - Add extra docbooks for Russian locale
