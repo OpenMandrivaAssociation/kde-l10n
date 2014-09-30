@@ -1723,7 +1723,6 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/uk/LC_SCRIPTS/
 %{_kde_datadir}/locale/uk/entry.desktop
 %{_kde_appsdir}/autocorrect/uk.xml
-%{_kde_appsdir}/autocorrect/uk_UA.xml
 %{_kde_appsdir}/ktuberling/sounds/uk*
 %{_kde_appsdir}/step/objinfo/l10n/uk/
 %{_kde_appsdir}/kvtml/uk/
