@@ -1722,6 +1722,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(uk) %{_kde_datadir}/locale/uk/LC_MESSAGES/*
 %{_kde_datadir}/locale/uk/LC_SCRIPTS/
 %{_kde_datadir}/locale/uk/entry.desktop
+%{_kde_appsdir}/autocorrect/uk.xml
 %{_kde_appsdir}/autocorrect/uk_UA.xml
 %{_kde_appsdir}/ktuberling/sounds/uk*
 %{_kde_appsdir}/step/objinfo/l10n/uk/
@@ -1926,6 +1927,7 @@ popd
 * Tue Sep 30 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.1-1
 - New version 4.14.1
 - Drop no longer needed kcm_baloofile-ru.po (fixed upsteam)
+- Update files
 
 * Tue Sep 23 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-3
 - Add extra docbooks for Russian locale
