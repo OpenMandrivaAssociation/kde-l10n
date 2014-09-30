@@ -15,8 +15,8 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	4.13.3
-Release:	3
+Version:	4.14.1
+Release:	1
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -1926,6 +1926,9 @@ popd
 %endif
 
 %changelog
+* Tue Sep 30 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.1-1
+- New version 4.14.1
+
 * Tue Sep 23 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-3
 - Add extra docbooks for Russian locale
 
