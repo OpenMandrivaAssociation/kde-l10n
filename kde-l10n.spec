@@ -1889,7 +1889,7 @@ cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
 
 # Add extra docbooks
 pushd %{name}-ru-%{version}
-tar -xaf %{SOURCE200}
+tar -xf %{SOURCE200}
 popd
 
 %build
