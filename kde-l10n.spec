@@ -16,7 +16,7 @@
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
 Version:	4.14.3
-Release:	1
+Release:	2
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -1923,6 +1923,9 @@ popd
 %endif
 
 %changelog
+* Fri Nov 14 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.3-2
+- Add missing Dolphin Russian docbook
+
 * Tue Nov 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.3-1
 - New version 4.14.3
 
