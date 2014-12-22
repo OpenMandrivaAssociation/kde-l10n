@@ -36,6 +36,7 @@ Source100:	kde-l10n.rpmlintrc
 # Extra translations missing in upstream
 Source102:	kfilemodule-ru.po
 Source103:	makekdewidgets-ru.po
+Source200:	russian-translation-rosa-addon.tar.bz2
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	kdelibs4-devel >= %{version}
@@ -1721,7 +1722,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(uk) %{_kde_datadir}/locale/uk/LC_MESSAGES/*
 %{_kde_datadir}/locale/uk/LC_SCRIPTS/
 %{_kde_datadir}/locale/uk/entry.desktop
-%{_kde_appsdir}/autocorrect/uk_UA.xml
+%{_kde_appsdir}/autocorrect/uk.xml
 %{_kde_appsdir}/ktuberling/sounds/uk*
 %{_kde_appsdir}/step/objinfo/l10n/uk/
 %{_kde_appsdir}/kvtml/uk/
@@ -1885,6 +1886,12 @@ tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 # Translation updates
 cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
 cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
+
+# Add extra docbooks
+
+pushd %{name}-ru-%{version}
+tar -xf %{SOURCE200}
+popd
 
 %build
 for lang in %{langlist} ; do
