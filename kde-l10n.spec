@@ -33,13 +33,12 @@ Url:		http://www.kde.org
     )
 }
 Source100:	kde-l10n.rpmlintrc
-# Extra translations missing in upstream
-Source102:	kfilemodule-ru.po
-Source103:	makekdewidgets-ru.po
-Source200:	russian-translation-rosa-addon.tar.bz2
 BuildRequires:	docbook-style-xsl
-BuildRequires:	docbook-dtd42-xml
-BuildRequires:	kdelibs4-devel >= %{version}
+BuildRequires:	docbook-dtd45-xml
+BuildRequires:	extra-cmake-modules
+BuildRequires:	kf5doctools-devel
+BuildRequires:	kf5i18n-devel
+BuildArch:	noarch
 BuildArch:	noarch
 
 %description
@@ -1895,7 +1894,7 @@ popd
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
-      %cmake_kde4
+      %cmake_qt5
       %make
 popd
 done
@@ -1903,7 +1902,7 @@ done
 # build ca@valencia separately due to the @ in the tarball name
 %if %{build_ca_valencia}
 pushd %{name}-ca@valencia-%{version}
-      %cmake_kde4
+      %cmake_qt5
       %make
 popd
 %endif
