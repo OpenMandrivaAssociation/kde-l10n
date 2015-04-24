@@ -36,9 +36,8 @@ Source100:	kde-l10n.rpmlintrc
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd45-xml
 BuildRequires:	extra-cmake-modules
-BuildRequires:	kf5doctools-devel
-BuildRequires:	kf5i18n-devel
-BuildArch:	noarch
+BuildRequires:	cmake(KF5DocTools)
+BuildRequires:	cmake(KF5I18n)
 BuildArch:	noarch
 
 %description
