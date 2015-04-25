@@ -1886,6 +1886,7 @@ tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
+      sed -i /"add_subdirectory(4)"/d CMakeLists.txt
       %cmake_kde5
       %make
 popd
