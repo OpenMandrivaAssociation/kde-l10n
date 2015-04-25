@@ -35,6 +35,7 @@ Url:		http://www.kde.org
 Source100:	kde-l10n.rpmlintrc
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd45-xml
+BuildRequires:	kdelibs4-devel
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
