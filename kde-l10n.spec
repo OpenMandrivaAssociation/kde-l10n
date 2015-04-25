@@ -35,7 +35,7 @@ Url:		http://www.kde.org
 Source100:	kde-l10n.rpmlintrc
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd45-xml
-BuildRequires:	extra-cmake-modules
+BuildRequires:	pkgconfig(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
 BuildArch:	noarch
@@ -1893,7 +1893,7 @@ popd
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
-      %cmake_qt5
+      %cmake_kde5
       %make
 popd
 done
@@ -1901,7 +1901,7 @@ done
 # build ca@valencia separately due to the @ in the tarball name
 %if %{build_ca_valencia}
 pushd %{name}-ca@valencia-%{version}
-      %cmake_qt5
+      %cmake_kde5
       %make
 popd
 %endif
