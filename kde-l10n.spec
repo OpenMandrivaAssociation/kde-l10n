@@ -98,7 +98,7 @@ This package provides Arabic translation for KDE.
 %lang(ar) %{_kde_datadir}/locale/ar/LC_MESSAGES/*
 %{_kde_datadir}/locale/ar/entry.desktop
 %{_kde_datadir}/locale/ar/LC_SCRIPTS/
-%{_kde_appsdir}/klettres/ar/
+%{_datadir}/klettres/ar/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -270,7 +270,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/ca/LC_SCRIPTS/
 %{_kde_datadir}/locale/ca/entry.desktop
 %{_kde_appsdir}/autocorrect/ca.xml
-%{_kde_appsdir}/khangman/ca.txt
+%{_datadir}/khangman/ca.txt
 %{_kde_appsdir}/ktuberling/sounds/ca*
 %{_kde_appsdir}/kvtml/ca/
 %{_kde_docdir}/HTML/ca/*
@@ -313,8 +313,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(cs) %{_kde_datadir}/locale/cs/LC_MESSAGES/*
 %{_kde_datadir}/locale/cs/entry.desktop
 %{_kde_appsdir}/autocorrect/cs.xml
-%{_kde_appsdir}/khangman/cs.txt
-%{_kde_appsdir}/klettres/cs/
+%{_datadir}/khangman/cs.txt
+%{_datadir}/klettres/cs/
 %{_kde_appsdir}/kvtml/cs/
 %{_kde_docdir}/HTML/cs/*
 %endif
@@ -374,8 +374,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(da) %{_kde_datadir}/locale/da/LC_MESSAGES/*
 %{_kde_datadir}/locale/da/entry.desktop
 %{_kde_appsdir}/ktuberling/sounds/da*
-%{_kde_appsdir}/khangman/da.txt
-%{_kde_appsdir}/klettres/da/
+%{_datadir}/khangman/da.txt
+%{_datadir}/klettres/da/
 %{_kde_appsdir}/kvtml/da/
 %{_kde_docdir}/HTML/da/*
 %{_kde_mandir}/da/*/*
@@ -401,9 +401,9 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/de/entry.desktop
 %{_kde_appsdir}/autocorrect/de_DE.xml
 %{_kde_appsdir}/kajongg/voices/de/
-%{_kde_appsdir}/klettres/de/
+%{_datadir}/klettres/de/
 %{_kde_appsdir}/ktuberling/sounds/de*
-%{_kde_appsdir}/khangman/de.txt
+%{_datadir}/khangman/de.txt
 %{_kde_appsdir}/kvtml/de/
 %{_kde_appsdir}/step/objinfo/l10n/de/
 %{_kde_docdir}/HTML/de/*
@@ -468,11 +468,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files en_GB
 %lang(en_GB) %{_kde_datadir}/locale/en_GB/LC_MESSAGES/*
 %{_kde_datadir}/locale/en_GB/entry.desktop
-%{_kde_appsdir}/klettres/en_GB/
+%{_datadir}/klettres/en_GB/
 %{_kde_appsdir}/kvtml/en_GB/
-%{_kde_appsdir}/katepart/syntax/logohighlightstyle.en_GB.xml
-%{_kde_appsdir}/kturtle/data/logokeywords.en_GB.xml
-%{_kde_appsdir}/kturtle/examples/en_GB/
+%{_datadir}/katepart/syntax/logohighlightstyle.en_GB.xml
+%{_datadir}/kturtle/data/logokeywords.en_GB.xml
+%{_datadir}/kturtle/examples/en_GB/
 %{_kde_docdir}/HTML/en_GB/
 %endif
 
@@ -515,8 +515,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/es/entry.desktop
 %{_kde_appsdir}/autocorrect/es.xml
 %{_kde_appsdir}/ktuberling/sounds/es*
-%{_kde_appsdir}/khangman/es.txt
-%{_kde_appsdir}/klettres/es/
+%{_datadir}/khangman/es.txt
+%{_datadir}/klettres/es/
 %{_kde_appsdir}/kvtml/es/
 %{_kde_docdir}/HTML/es/*
 %{_kde_mandir}/es/*/*
@@ -539,7 +539,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files et
 %lang(et) %{_kde_datadir}/locale/et/LC_MESSAGES/*
 %{_kde_datadir}/locale/et/entry.desktop
-%{_kde_appsdir}/khangman/et.txt
+%{_datadir}/khangman/et.txt
 %{_kde_appsdir}/kvtml/et/
 %{_kde_docdir}/HTML/et/*
 %{_kde_mandir}/et/*/*
@@ -582,7 +582,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(fi) %{_kde_datadir}/locale/fi/LC_MESSAGES/*
 %{_kde_datadir}/locale/fi/entry.desktop
 %{_kde_datadir}/locale/fi/LC_SCRIPTS/
-%{_kde_appsdir}/khangman/fi.txt
+%{_datadir}/khangman/fi.txt
 %{_kde_appsdir}/ktuberling/sounds/fi*
 %{_kde_appsdir}/kvtml/fi/
 %endif
@@ -626,7 +626,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/fr/entry.desktop
 %{_kde_appsdir}/autocorrect/fr.xml
 %{_kde_appsdir}/ktuberling/sounds/fr*
-%{_kde_appsdir}/khangman/fr.txt
+%{_datadir}/khangman/fr.txt
 %{_kde_appsdir}/kvtml/fr/
 %{_kde_docdir}/HTML/fr/*
 %{_kde_mandir}/fr/*/*
@@ -669,7 +669,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ga) %{_kde_datadir}/locale/ga/LC_MESSAGES/*
 %{_kde_datadir}/locale/ga/LC_SCRIPTS/
 %{_kde_datadir}/locale/ga/entry.desktop
-%{_kde_appsdir}/khangman/ga.txt
+%{_datadir}/khangman/ga.txt
 %{_kde_appsdir}/ktuberling/sounds/ga*
 %{_kde_appsdir}/kvtml/ga/
 %endif
@@ -691,7 +691,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files gl
 %lang(gl) %{_kde_datadir}/locale/gl/LC_MESSAGES/*
 %{_kde_datadir}/locale/gl/entry.desktop
-%{_kde_appsdir}/khangman/gl.txt
+%{_datadir}/khangman/gl.txt
 %{_kde_appsdir}/kvtml/gl/
 %{_kde_appsdir}/ktuberling/sounds/gl.soundtheme
 %{_kde_appsdir}/ktuberling/sounds/gl/
@@ -716,7 +716,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files he
 %lang(he) %{_kde_datadir}/locale/he/LC_MESSAGES/*
 %{_kde_datadir}/locale/he/entry.desktop
-%{_kde_appsdir}/klettres/he/
+%{_datadir}/klettres/he/
 %{_kde_docdir}/HTML/he/*
 %endif
 
@@ -797,9 +797,9 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/hu/entry.desktop
 %{_kde_appsdir}/autocorrect/hu.xml
 %{_kde_appsdir}/kanagram/hu.txt
-%{_kde_appsdir}/khangman/hu.txt
+%{_datadir}/khangman/hu.txt
 %{_kde_appsdir}/kvtml/hu/
-%{_kde_appsdir}/klettres/hu/
+%{_datadir}/klettres/hu/
 %{_kde_docdir}/HTML/hu/*
 %endif
 
@@ -878,7 +878,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/it/entry.desktop
 %{_kde_appsdir}/autocorrect/it_IT.xml
 %{_kde_appsdir}/ktuberling/sounds/it*
-%{_kde_appsdir}/klettres/it/
+%{_datadir}/klettres/it/
 %{_kde_appsdir}/kvtml/it/
 %{_kde_appsdir}/step/objinfo/l10n/it/
 %{_kde_docdir}/HTML/it/*
@@ -1041,8 +1041,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(lt) %{_kde_datadir}/locale/lt/LC_MESSAGES/*
 %{_kde_datadir}/locale/lt/LC_SCRIPTS/
 %{_kde_datadir}/locale/lt/entry.desktop
-%{_kde_appsdir}/klettres/lt/
-%{_kde_appsdir}/klettres/lt.txt
+%{_datadir}/klettres/lt/
+%{_datadir}/klettres/lt.txt
 %{_kde_appsdir}/ktuberling/sounds/lt/
 %{_kde_appsdir}/ktuberling/sounds/lt.soundtheme
 %{_kde_docdir}/HTML/lt/*
@@ -1087,12 +1087,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(nds) %{_kde_datadir}/locale/nds/LC_MESSAGES/*
 %{_kde_datadir}/locale/nds/entry.desktop
 %{_kde_appsdir}/autocorrect/nds.xml
-%{_kde_appsdir}/klettres/nds/
-%{_kde_appsdir}/khangman/nds.txt
+%{_datadir}/klettres/nds/
+%{_datadir}/khangman/nds.txt
 %{_kde_appsdir}/kvtml/nds/
 %{_kde_appsdir}/ktuberling/sounds/nds*
-%{_kde_appsdir}/katepart/syntax/logohighlightstyle.nds.xml
-%{_kde_appsdir}/kturtle/examples/nds
+%{_datadir}/katepart/syntax/logohighlightstyle.nds.xml
+%{_datadir}/kturtle/examples/nds
 %{_kde_docdir}/HTML/nds/*
 %endif
 
@@ -1170,7 +1170,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ml) %{_kde_datadir}/locale/ml/LC_MESSAGES/*
 %{_kde_datadir}/locale/ml/LC_SCRIPTS/
 %{_kde_datadir}/locale/ml/entry.desktop
-%{_kde_appsdir}/klettres/ml/
+%{_datadir}/klettres/ml/
 %endif
 
 #------------------------------------------------------------------------------
@@ -1248,11 +1248,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/nl/LC_SCRIPTS/
 %{_kde_datadir}/locale/nl/entry.desktop
 %{_kde_appsdir}/ktuberling/sounds/nl*
-%{_kde_appsdir}/klettres/nl/
+%{_datadir}/klettres/nl/
 %{_kde_appsdir}/kvtml/nl/
-%{_kde_appsdir}/katepart/syntax/logohighlightstyle.nl.xml
-%{_kde_appsdir}/kturtle/data/logokeywords.nl.xml
-%{_kde_appsdir}/kturtle/examples/nl/*.logo
+%{_datadir}/katepart/syntax/logohighlightstyle.nl.xml
+%{_datadir}/kturtle/data/logokeywords.nl.xml
+%{_datadir}/kturtle/examples/nl/*.logo
 %{_kde_docdir}/HTML/nl/*
 %{_kde_mandir}/nl/*/*
 %endif
@@ -1294,12 +1294,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(nb) %{_kde_datadir}/locale/nb/LC_MESSAGES/*
 %{_kde_datadir}/locale/nb/LC_SCRIPTS/
 %{_kde_datadir}/locale/nb/entry.desktop
-%{_kde_appsdir}/khangman/nb.txt
+%{_datadir}/khangman/nb.txt
 %{_kde_appsdir}/kvtml/nb/
-%{_kde_appsdir}/klettres/nb/
-%{_kde_appsdir}/katepart/syntax/logohighlightstyle.nb.xml
-%{_kde_appsdir}/kturtle/data/logokeywords.nb.xml
-%{_kde_appsdir}/kturtle/examples/nb/*.logo
+%{_datadir}/klettres/nb/
+%{_datadir}/katepart/syntax/logohighlightstyle.nb.xml
+%{_datadir}/kturtle/data/logokeywords.nb.xml
+%{_datadir}/kturtle/examples/nb/*.logo
 %{_kde_docdir}/HTML/nb/*
 %{_kde_mandir}/nb/*/*
 %endif
@@ -1322,7 +1322,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(nn) %{_kde_datadir}/locale/nn/LC_MESSAGES/*
 %{_kde_datadir}/locale/nn/LC_SCRIPTS/
 %{_kde_datadir}/locale/nn/entry.desktop
-%{_kde_appsdir}/khangman/nn.txt
+%{_datadir}/khangman/nn.txt
 %{_kde_appsdir}/kvtml/nn/
 %{_kde_docdir}/HTML/nn/*
 %endif
@@ -1363,7 +1363,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(pl) %{_kde_datadir}/locale/pl/LC_MESSAGES/*
 %{_kde_datadir}/locale/pl/LC_SCRIPTS/
 %{_kde_datadir}/locale/pl/entry.desktop
-%{_kde_appsdir}/khangman/pl.txt
+%{_datadir}/khangman/pl.txt
 %{_kde_appsdir}/kvtml/pl/
 %{_kde_docdir}/HTML/pl/*
 %{_kde_mandir}/pl/*/*
@@ -1386,7 +1386,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files pt
 %lang(pt) %{_kde_datadir}/locale/pt/LC_MESSAGES/*
 %{_kde_datadir}/locale/pt/entry.desktop
-%{_kde_appsdir}/khangman/pt.txt
+%{_datadir}/khangman/pt.txt
 %{_kde_appsdir}/ktuberling/sounds/pt*
 %{_kde_appsdir}/kvtml/pt/
 %{_kde_docdir}/HTML/pt/*
@@ -1431,8 +1431,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(pt_BR) %{_kde_datadir}/locale/pt_BR/LC_MESSAGES/*
 %{_kde_datadir}/locale/pt_BR/entry.desktop
 %{_kde_appsdir}/autocorrect/pt_BR.xml
-%{_kde_appsdir}/khangman/pt_BR.txt
-%{_kde_appsdir}/klettres/pt_BR/*
+%{_datadir}/khangman/pt_BR.txt
+%{_datadir}/klettres/pt_BR/*
 %{_kde_appsdir}/kvtml/pt_BR/
 %{_kde_docdir}/HTML/pt_BR/*
 %{_kde_mandir}/pt_BR/*/*
@@ -1480,8 +1480,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_datadir}/locale/ru/entry.desktop
 %{_kde_appsdir}/autocorrect/ru_RU.xml
 %{_kde_appsdir}/kvtml/ru/
-%{_kde_appsdir}/katepart/syntax/logohighlightstyle.ru.xml
-%{_kde_appsdir}/klettres/ru
+%{_datadir}/katepart/syntax/logohighlightstyle.ru.xml
+%{_datadir}/klettres/ru
 %{_kde_appsdir}/ktuberling/sounds/ru/
 %{_kde_appsdir}/ktuberling/sounds/ru.soundtheme
 %{_kde_docdir}/HTML/ru/*
@@ -1543,7 +1543,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files sl
 %lang(sl) %{_kde_datadir}/locale/sl/LC_MESSAGES/*
 %{_kde_datadir}/locale/sl/entry.desktop
-%{_kde_appsdir}/khangman/sl.txt
+%{_datadir}/khangman/sl.txt
 %{_kde_appsdir}/ktuberling/sounds/sl*
 %{_kde_appsdir}/kvtml/sl/*
 %{_kde_docdir}/HTML/sl/*
@@ -1586,7 +1586,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_appsdir}/desktoptheme/*/widgets/l10n/sr@ijekavian
 %{_kde_appsdir}/desktoptheme/*/widgets/l10n/sr@ijekavianlatin
 %{_kde_appsdir}/desktoptheme/default/icons/l10n/sr*
-%{_kde_appsdir}/khangman/sr@latin.txt
+%{_datadir}/khangman/sr@latin.txt
 %{_kde_appsdir}/kvtml/sr*/
 %{_kde_docdir}/HTML/sr/*
 %{_kde_docdir}/HTML/sr@latin/*
@@ -1612,7 +1612,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(sv) %{_kde_datadir}/locale/sv/LC_MESSAGES/*
 %{_kde_datadir}/locale/sv/entry.desktop
 %{_kde_datadir}/locale/sv/LC_SCRIPTS/
-%{_kde_appsdir}/khangman/sv.txt
+%{_datadir}/khangman/sv.txt
 %{_kde_appsdir}/ktuberling/sounds/sv*
 %{_kde_appsdir}/kvtml/sv/
 %{_kde_docdir}/HTML/sv/*
@@ -1656,7 +1656,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(tg) %{_kde_datadir}/locale/tg/LC_MESSAGES/*
 %{_kde_datadir}/locale/tg/entry.desktop
 %{_kde_appsdir}/kvtml/tg/
-%{_kde_appsdir}/khangman/tg.txt
+%{_datadir}/khangman/tg.txt
 %endif
 
 #------------------------------------------------------------------------------
@@ -1697,7 +1697,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files tr
 %lang(tr) %{_kde_datadir}/locale/tr/LC_MESSAGES/*
 %{_kde_datadir}/locale/tr/entry.desktop
-%{_kde_appsdir}/khangman/tr.txt
+%{_datadir}/khangman/tr.txt
 %{_kde_appsdir}/kvtml/tr/
 %{_kde_docdir}/HTML/tr/*
 %{_kde_mandir}/tr/*/*
@@ -1726,7 +1726,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_kde_appsdir}/ktuberling/sounds/uk*
 %{_kde_appsdir}/step/objinfo/l10n/uk/
 %{_kde_appsdir}/kvtml/uk/
-%{_kde_appsdir}/klettres/uk/
+%{_datadir}/klettres/uk/
 %{_kde_docdir}/HTML/uk/*
 %{_kde_mandir}/uk/*/*
 %endif
