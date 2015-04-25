@@ -1881,15 +1881,6 @@ done
 tar -xf %{_sourcedir}/%{name}-ca@valencia-%{version}.tar.xz
 %endif
 
-# Translation updates
-cp %{SOURCE102} %{name}-ru-%{version}/messages/kdelibs/kfilemodule.po
-cp %{SOURCE103} %{name}-ru-%{version}/messages/kdelibs/makekdewidgets.po
-
-# Add extra docbooks
-pushd %{name}-ru-%{version}
-tar -xf %{SOURCE200}
-popd
-
 %build
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
