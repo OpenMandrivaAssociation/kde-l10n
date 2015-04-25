@@ -38,6 +38,7 @@ BuildRequires:	docbook-dtd45-xml
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
+BuildRequires:	ninja
 BuildArch:	noarch
 
 %description
