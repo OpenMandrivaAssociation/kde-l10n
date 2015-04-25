@@ -1888,7 +1888,7 @@ for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
       sed -i /"add_subdirectory(4)"/d CMakeLists.txt
       %cmake_kde5
-      %make
+      ninja
 popd
 done
 
@@ -1896,21 +1896,21 @@ done
 %if %{build_ca_valencia}
 pushd %{name}-ca@valencia-%{version}
       %cmake_kde5
-      %make
+      ninja
 popd
 %endif
 
 %install
 for lang in %{langlist} ; do
 pushd %{name}-$lang-%{version}
-     %makeinstall_std -C build
+     DESTDIR="%{buildroot}" ninja install -C build
 popd
 done
 
 # install ca@valencia separately due to the @ in the tarball name
 %if %{build_ca_valencia}
 pushd %{name}-ca@valencia-%{version}
-     %makeinstall_std -C build
+     DESTDIR="%{buildroot}" ninja install -C build
 popd
 %endif
 
