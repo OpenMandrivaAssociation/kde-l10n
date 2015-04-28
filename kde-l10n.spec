@@ -76,7 +76,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 This package provides Afrikaans translations for KDE.
 
 %files af
-%lang(af) %{_kde5_localedir}/af/LC_MESSAGES/*
+%lang(af) %{_datadir}/locale/af/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -94,7 +94,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 This package provides Arabic translation for KDE.
 
 %files ar
-%lang(ar) %{_kde5_localedir}/ar/LC_MESSAGES/*
+%lang(ar) %{_datadir}/locale/ar/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/ar/
 %endif
 
@@ -112,7 +112,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 This package provides Azerbaijani translations for KDE.
 
 %files az
-%lang(az) %{_kde5_localedir}/az/LC_MESSAGES/*
+%lang(az) %{_datadir}/locale/az/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files be
-%lang(be) %{_kde5_localedir}/be/LC_MESSAGES/*
+%lang(be) %{_datadir}/locale/be/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -148,7 +148,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files bn_IN
-%lang(bn_IN) %{_kde5_localedir}/bn_IN/LC_MESSAGES/*
+%lang(bn_IN) %{_datadir}/locale/bn_IN/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -165,7 +165,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files bg
-%lang(bg) %{_kde5_localedir}/bg/LC_MESSAGES/*
+%lang(bg) %{_datadir}/locale/bg/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/bg/
 %endif
 
@@ -183,7 +183,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files bo
-%lang(bo) %{_kde5_localedir}/bo/LC_MESSAGES/*
+%lang(bo) %{_datadir}/locale/bo/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -200,7 +200,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files br
-%lang(br) %{_kde5_localedir}/br/LC_MESSAGES/*
+%lang(br) %{_datadir}/locale/br/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -217,7 +217,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files bs
-%lang(bs) %{_kde5_localedir}/bs/LC_MESSAGES/*
+%lang(bs) %{_datadir}/locale/bs/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -235,7 +235,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ca
-%lang(ca) %{_kde5_localedir}/ca/LC_MESSAGES/*
+%lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/ca.txt
 %{_kde5_datadir}/kvtml/ca/
 %{_kde5_docdir}/HTML/ca/*
@@ -255,7 +255,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ca-valencia
-%lang(ca-valencia) %{_kde5_localedir}/ca@valencia/LC_MESSAGES/*
+%lang(ca-valencia) %{_datadir}/locale/ca@valencia/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -273,7 +273,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files cs
-%lang(cs) %{_kde5_localedir}/cs/LC_MESSAGES/*
+%lang(cs) %{_datadir}/locale/cs/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/cs.txt
 %{_kde5_datadir}/klettres/cs/
 %{_kde5_datadir}/kvtml/cs/
@@ -295,7 +295,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files csb
-%lang(csb) %{_kde5_localedir}/csb/LC_MESSAGES/*
+%lang(csb) %{_datadir}/locale/csb/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -312,7 +312,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files cy
-%lang(cy) %{_kde5_localedir}/cy/LC_MESSAGES/*
+%lang(cy) %{_datadir}/locale/cy/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -330,7 +330,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files da
-%lang(da) %{_kde5_localedir}/da/LC_MESSAGES/*
+%lang(da) %{_datadir}/locale/da/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/da.txt
 %{_kde5_datadir}/klettres/da/
 %{_kde5_datadir}/kvtml/da/
@@ -351,7 +351,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files de
-%lang(de) %{_kde5_localedir}/de/LC_MESSAGES/*
+%lang(de) %{_datadir}/locale/de/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/de/
 %{_kde5_datadir}/khangman/de.txt
 %{_kde5_datadir}/kvtml/de/
@@ -373,7 +373,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files el
-%lang(el) %{_kde5_localedir}/el/LC_MESSAGES/*
+%lang(el) %{_datadir}/locale/el/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/el
 %{_kde5_docdir}/HTML/el/
 %endif
@@ -393,7 +393,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 This package provides Basque translations for KDE.
 
 %files eu
-%lang(eu) %{_kde5_localedir}/eu/LC_MESSAGES/*
+%lang(eu) %{_datadir}/locale/eu/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -411,7 +411,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files en_GB
-%lang(en_GB) %{_kde5_localedir}/en_GB/LC_MESSAGES/*
+%lang(en_GB) %{_datadir}/locale/en_GB/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/en_GB/
 %{_kde5_datadir}/kvtml/en_GB/
 %{_kde5_datadir}/katepart/syntax/logohighlightstyle.en_GB.xml
@@ -434,7 +434,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files eo
-%lang(eo) %{_kde5_localedir}/eo/LC_MESSAGES/*
+%lang(eo) %{_datadir}/locale/eo/LC_MESSAGES/*
 %{_kde5_docdir}/HTML/eo/*
 %endif
 
@@ -453,7 +453,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files es
-%lang(es) %{_kde5_localedir}/es/LC_MESSAGES/*
+%lang(es) %{_datadir}/locale/es/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/es.txt
 %{_kde5_datadir}/klettres/es/
 %{_kde5_datadir}/kvtml/es/
@@ -475,7 +475,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files et
-%lang(et) %{_kde5_localedir}/et/LC_MESSAGES/*
+%lang(et) %{_datadir}/locale/et/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/et.txt
 %{_kde5_datadir}/kvtml/et/
 %{_kde5_docdir}/HTML/et/*
@@ -496,7 +496,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files fa
-%lang(fa) %{_kde5_localedir}/fa/LC_MESSAGES/*
+%lang(fa) %{_datadir}/locale/fa/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -514,8 +514,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files fi
-%lang(fi) %{_kde5_localedir}/fi/LC_MESSAGES/*
-%{_kde5_localedir}/fi/LC_SCRIPTS/
+%lang(fi) %{_datadir}/locale/fi/LC_MESSAGES/*
+%{_datadir}/locale/fi/LC_SCRIPTS/
 %{_kde5_datadir}/khangman/fi.txt
 %{_kde5_datadir}/kvtml/fi/
 %endif
@@ -534,7 +534,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files fo
-%lang(fo) %{_kde5_localedir}/fo/LC_MESSAGES/*
+%lang(fo) %{_datadir}/locale/fo/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -553,8 +553,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files fr
-%lang(fr) %{_kde5_localedir}/fr/LC_MESSAGES/*
-%{_kde5_localedir}/fr/LC_SCRIPTS/
+%lang(fr) %{_datadir}/locale/fr/LC_MESSAGES/*
+%{_datadir}/locale/fr/LC_SCRIPTS/
 %{_kde5_datadir}/khangman/fr.txt
 %{_kde5_datadir}/kvtml/fr/
 %{_kde5_docdir}/HTML/fr/*
@@ -575,7 +575,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files fy
-%lang(fy) %{_kde5_localedir}/fy/LC_MESSAGES/*
+%lang(fy) %{_datadir}/locale/fy/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -593,7 +593,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ga
-%lang(ga) %{_kde5_localedir}/ga/LC_MESSAGES/*
+%lang(ga) %{_datadir}/locale/ga/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/ga.txt
 %{_kde5_datadir}/kvtml/ga/
 %endif
@@ -613,7 +613,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files gl
-%lang(gl) %{_kde5_localedir}/gl/LC_MESSAGES/*
+%lang(gl) %{_datadir}/locale/gl/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/gl.txt
 %{_kde5_datadir}/kvtml/gl/
 %{_kde5_docdir}/HTML/gl/*
@@ -633,7 +633,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files gu
-%lang(gu) %{_kde5_localedir}/gu/LC_MESSAGES/*
+%lang(gu) %{_datadir}/locale/gu/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -651,7 +651,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files he
-%lang(he) %{_kde5_localedir}/he/LC_MESSAGES/*
+%lang(he) %{_datadir}/locale/he/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/he/
 %endif
 
@@ -670,7 +670,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files hi
-%lang(hi) %{_kde5_localedir}/hi/LC_MESSAGES/*
+%lang(hi) %{_datadir}/locale/hi/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -688,7 +688,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files hne
-%lang(hne) %{_kde5_localedir}/hne/LC_MESSAGES/*
+%lang(hne) %{_datadir}/locale/hne/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -706,7 +706,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files hr
-%lang(hr) %{_kde5_localedir}/hr/LC_MESSAGES/*
+%lang(hr) %{_datadir}/locale/hr/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -724,7 +724,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files hu
-%lang(hu) %{_kde5_localedir}/hu/LC_MESSAGES/*
+%lang(hu) %{_datadir}/locale/hu/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/hu.txt
 %{_kde5_datadir}/kvtml/hu/
 %{_kde5_datadir}/klettres/hu/
@@ -744,7 +744,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ia
-%lang(ia) %{_kde5_localedir}/ia/LC_MESSAGES/*
+%lang(ia) %{_datadir}/locale/ia/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -762,7 +762,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files id
-%lang(id) %{_kde5_localedir}/id/LC_MESSAGES/*
+%lang(id) %{_datadir}/locale/id/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -780,7 +780,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files is
-%lang(is) %{_kde5_localedir}/is/LC_MESSAGES/*
+%lang(is) %{_datadir}/locale/is/LC_MESSAGES/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -798,7 +798,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files it
-%lang(it) %{_kde5_localedir}/it/LC_MESSAGES/*
+%lang(it) %{_datadir}/locale/it/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/it/
 %{_kde5_datadir}/kvtml/it/
 %{_kde5_docdir}/HTML/it/*
@@ -819,8 +819,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ja
-%lang(ja) %{_kde5_localedir}/ja/LC_MESSAGES/*
-%{_kde5_localedir}/ja/LC_SCRIPTS/
+%lang(ja) %{_datadir}/locale/ja/LC_MESSAGES/*
+%{_datadir}/locale/ja/LC_SCRIPTS/
 %{_kde5_docdir}/HTML/ja/*
 %endif
 
@@ -839,7 +839,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files kn
-%lang(kn) %{_kde5_localedir}/kn/LC_MESSAGES/*
+%lang(kn) %{_datadir}/locale/kn/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -857,7 +857,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files kk
-%lang(kk) %{_kde5_localedir}/kk/LC_MESSAGES/*
+%lang(kk) %{_datadir}/locale/kk/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -875,7 +875,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files km
-%lang(km) %{_kde5_localedir}/km/LC_MESSAGES/*
+%lang(km) %{_datadir}/locale/km/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -893,7 +893,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ko
-%lang(ko) %{_kde5_localedir}/ko/LC_MESSAGES/*
+%lang(ko) %{_datadir}/locale/ko/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -912,7 +912,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 
 %files ku
-%lang(ku) %{_kde5_localedir}/ku/LC_MESSAGES/*
+%lang(ku) %{_datadir}/locale/ku/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -929,7 +929,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files lo
-%lang(lo) %{_kde5_localedir}/lo/LC_MESSAGES/*
+%lang(lo) %{_datadir}/locale/lo/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -947,7 +947,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files lt
-%lang(lt) %{_kde5_localedir}/lt/LC_MESSAGES/*
+%lang(lt) %{_datadir}/locale/lt/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/lt/
 %{_kde5_datadir}/klettres/lt.txt
 %{_kde5_docdir}/HTML/lt/*
@@ -968,7 +968,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files lv
-%lang(lv) %{_kde5_localedir}/lv/LC_MESSAGES/*
+%lang(lv) %{_datadir}/locale/lv/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -985,7 +985,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files mi
-%lang(mi) %{_kde5_localedir}/mi/LC_MESSAGES/*
+%lang(mi) %{_datadir}/locale/mi/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1003,7 +1003,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files mk
-%lang(mk) %{_kde5_localedir}/mk/LC_MESSAGES/*
+%lang(mk) %{_datadir}/locale/mk/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1021,7 +1021,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files mai
-%lang(mai) %{_kde5_localedir}/mai/LC_MESSAGES/*
+%lang(mai) %{_datadir}/locale/mai/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1039,7 +1039,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ml
-%lang(ml) %{_kde5_localedir}/ml/LC_MESSAGES/*
+%lang(ml) %{_datadir}/locale/ml/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/ml/
 %endif
 
@@ -1057,7 +1057,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files mt
-%lang(mt) %{_kde5_localedir}/mt/LC_MESSAGES/*
+%lang(mt) %{_datadir}/locale/mt/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1075,7 +1075,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files mr
-%lang(mr) %{_kde5_localedir}/mr/LC_MESSAGES/*
+%lang(mr) %{_datadir}/locale/mr/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1093,7 +1093,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files nb
-%lang(nb) %{_kde5_localedir}/nb/LC_MESSAGES/*
+%lang(nb) %{_datadir}/locale/nb/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/nb.txt
 %{_kde5_datadir}/kvtml/nb/
 %{_kde5_datadir}/klettres/nb/
@@ -1117,7 +1117,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files nds
-%lang(nds) %{_kde5_localedir}/nds/LC_MESSAGES/*
+%lang(nds) %{_datadir}/locale/nds/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/nds/
 %{_kde5_datadir}/khangman/nds.txt
 %{_kde5_datadir}/kvtml/nds/
@@ -1140,7 +1140,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ne
-%lang(ne) %{_kde5_localedir}/ne/LC_MESSAGES/*
+%lang(ne) %{_datadir}/locale/ne/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1158,7 +1158,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files nl
-%lang(nl) %{_kde5_localedir}/nl/LC_MESSAGES/*
+%lang(nl) %{_datadir}/locale/nl/LC_MESSAGES/*
 %{_kde5_datadir}/klettres/nl/
 %{_kde5_datadir}/kvtml/nl/
 %{_kde5_datadir}/katepart/syntax/logohighlightstyle.nl.xml
@@ -1182,7 +1182,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files nn
-%lang(nn) %{_kde5_localedir}/nn/LC_MESSAGES/*
+%lang(nn) %{_datadir}/locale/nn/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/nn.txt
 %{_kde5_datadir}/kvtml/nn/
 %{_kde5_docdir}/HTML/nn/*
@@ -1202,7 +1202,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files oc
-%lang(oc) %{_kde5_localedir}/oc/LC_MESSAGES/*
+%lang(oc) %{_datadir}/locale/oc/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1220,8 +1220,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files pl
-%lang(pl) %{_kde5_localedir}/pl/LC_MESSAGES/*
-%{_kde5_localedir}/pl/LC_SCRIPTS/
+%lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/*
+%{_datadir}/locale/pl/LC_SCRIPTS/
 %{_kde5_datadir}/khangman/pl.txt
 %{_kde5_datadir}/kvtml/pl/
 %{_kde5_docdir}/HTML/pl/*
@@ -1242,7 +1242,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files pt
-%lang(pt) %{_kde5_localedir}/pt/LC_MESSAGES/*
+%lang(pt) %{_datadir}/locale/pt/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/pt.txt
 %{_kde5_datadir}/kvtml/pt/
 %{_kde5_docdir}/HTML/pt/*
@@ -1263,7 +1263,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files pa
-%lang(pa) %{_kde5_localedir}/pa/LC_MESSAGES/*
+%lang(pa) %{_datadir}/locale/pa/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/pa
 %endif
 
@@ -1282,7 +1282,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files pt_BR
-%lang(pt_BR) %{_kde5_localedir}/pt_BR/LC_MESSAGES/*
+%lang(pt_BR) %{_datadir}/locale/pt_BR/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/pt_BR.txt
 %{_kde5_datadir}/klettres/pt_BR/*
 %{_kde5_datadir}/kvtml/pt_BR/
@@ -1304,7 +1304,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ro
-%lang(ro) %{_kde5_localedir}/ro/LC_MESSAGES/*
+%lang(ro) %{_datadir}/locale/ro/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/ro/
 %endif
 
@@ -1323,8 +1323,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ru
-%lang(ru) %{_kde5_localedir}/ru/LC_MESSAGES/*
-%{_kde5_localedir}/ru/LC_SCRIPTS/
+%lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/*
+%{_datadir}/locale/ru/LC_SCRIPTS/
 %{_kde5_datadir}/kvtml/ru/
 %{_kde5_datadir}/katepart/syntax/logohighlightstyle.ru.xml
 %{_kde5_datadir}/klettres/ru
@@ -1346,7 +1346,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files se
-%lang(se) %{_kde5_localedir}/se/LC_MESSAGES/*
+%lang(se) %{_datadir}/locale/se/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1364,7 +1364,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files si
-%lang(si) %{_kde5_localedir}/si/LC_MESSAGES/*
+%lang(si) %{_datadir}/locale/si/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1382,7 +1382,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files sk
-%lang(sk) %{_kde5_localedir}/sk/LC_MESSAGES/*
+%lang(sk) %{_datadir}/locale/sk/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1400,7 +1400,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files sl
-%lang(sl) %{_kde5_localedir}/sl/LC_MESSAGES/*
+%lang(sl) %{_datadir}/locale/sl/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/sl.txt
 %{_kde5_datadir}/kvtml/sl/*
 %endif
@@ -1420,14 +1420,14 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files sr
-%lang(sr) %{_kde5_localedir}/sr/LC_MESSAGES/*
-%{_kde5_localedir}/sr/LC_SCRIPTS/
-%{_kde5_localedir}/sr@latin/LC_MESSAGES/*
-%{_kde5_localedir}/sr@latin/LC_SCRIPTS/
-%{_kde5_localedir}/sr@ijekavian/LC_MESSAGES/
-%{_kde5_localedir}/sr@ijekavian/LC_SCRIPTS/
-%{_kde5_localedir}/sr@ijekavianlatin/LC_MESSAGES/
-%{_kde5_localedir}/sr@ijekavianlatin/LC_SCRIPTS
+%lang(sr) %{_datadir}/locale/sr/LC_MESSAGES/*
+%{_datadir}/locale/sr/LC_SCRIPTS/
+%{_datadir}/locale/sr@latin/LC_MESSAGES/*
+%{_datadir}/locale/sr@latin/LC_SCRIPTS/
+%{_datadir}/locale/sr@ijekavian/LC_MESSAGES/
+%{_datadir}/locale/sr@ijekavian/LC_SCRIPTS/
+%{_datadir}/locale/sr@ijekavianlatin/LC_MESSAGES/
+%{_datadir}/locale/sr@ijekavianlatin/LC_SCRIPTS
 %{_kde5_datadir}/desktoptheme/*/widgets/l10n/sr
 %{_kde5_datadir}/desktoptheme/*/widgets/l10n/sr@latin
 %{_kde5_datadir}/desktoptheme/*/widgets/l10n/sr@ijekavian
@@ -1454,7 +1454,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files sv
-%lang(sv) %{_kde5_localedir}/sv/LC_MESSAGES/*
+%lang(sv) %{_datadir}/locale/sv/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/sv.txt
 %{_kde5_datadir}/kvtml/sv/
 %{_kde5_docdir}/HTML/sv/*
@@ -1475,7 +1475,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ta
-%lang(ta) %{_kde5_localedir}/ta/LC_MESSAGES/*
+%lang(ta) %{_datadir}/locale/ta/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1493,7 +1493,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files tg
-%lang(tg) %{_kde5_localedir}/tg/LC_MESSAGES/*
+%lang(tg) %{_datadir}/locale/tg/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/tg/
 %{_kde5_datadir}/khangman/tg.txt
 %endif
@@ -1513,9 +1513,9 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files th
-%lang(th) %{_kde5_localedir}/th/LC_MESSAGES/*
-%{_kde5_localedir}/th/charset
-%{_kde5_localedir}/th/flag.png
+%lang(th) %{_datadir}/locale/th/LC_MESSAGES/*
+%{_datadir}/locale/th/charset
+%{_datadir}/locale/th/flag.png
 %endif
 
 #------------------------------------------------------------------------------
@@ -1533,7 +1533,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files tr
-%lang(tr) %{_kde5_localedir}/tr/LC_MESSAGES/*
+%lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/*
 %{_kde5_datadir}/khangman/tr.txt
 %{_kde5_datadir}/kvtml/tr/
 %endif
@@ -1554,8 +1554,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files uk
-%lang(uk) %{_kde5_localedir}/uk/LC_MESSAGES/*
-%{_kde5_localedir}/uk/LC_SCRIPTS/
+%lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/*
+%{_datadir}/locale/uk/LC_SCRIPTS/
 %{_kde5_datadir}/kvtml/uk/
 %{_kde5_datadir}/klettres/uk/
 %{_kde5_docdir}/HTML/uk/*
@@ -1575,7 +1575,7 @@ Provides:	%{name}-Uyghur = %{version}-%{release}
 %{summary}.
 
 %files ug
-%lang(ug) %{_kde5_localedir}/ug/LC_MESSAGES/*
+%lang(ug) %{_datadir}/locale/ug/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1592,7 +1592,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files ven
-%lang(ven) %{_kde5_localedir}/ven/LC_MESSAGES/*
+%lang(ven) %{_datadir}/locale/ven/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1609,7 +1609,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files vi
-%lang(vi) %{_kde5_localedir}/vi/LC_MESSAGES/*
+%lang(vi) %{_datadir}/locale/vi/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1627,7 +1627,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files wa
-%lang(wa) %{_kde5_localedir}/wa/LC_MESSAGES/*
+%lang(wa) %{_datadir}/locale/wa/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1644,7 +1644,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files xh
-%lang(xh) %{_kde5_localedir}/xh/LC_MESSAGES/*
+%lang(xh) %{_datadir}/locale/xh/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1662,7 +1662,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files zh_CN
-%lang(zh_CN) %{_kde5_localedir}/zh_CN/LC_MESSAGES/*
+%lang(zh_CN) %{_datadir}/locale/zh_CN/LC_MESSAGES/*
 %{_kde5_datadir}/kvtml/zh_CN/
 %endif
 
@@ -1681,7 +1681,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{summary}.
 
 %files zh_TW
-%lang(zh_TW) %{_kde5_localedir}/zh_TW/LC_MESSAGES/*
+%lang(zh_TW) %{_datadir}/locale/zh_TW/LC_MESSAGES/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1892,7 +1892,7 @@ popd
     - Revert commit 696126: Never modify tarball directly
     - Updated Russian translation for Dolphin, KSysGuard and Nepomuk
 
-* Thu Jul 07 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 3:4.6.4-3
+* Thu Jul 07 2011 Per Oyvind Karlsen <peroyvind@mandriva.org> 3:4.6.4-3
 + Revision: 689150
 - fix upgrade from 2009.0 by provides/obsoleting kde4-l10n-foo
 - use %%global, not %%define (which'll break) for loop in %%{expand:...}
