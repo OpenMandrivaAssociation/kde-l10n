@@ -39,7 +39,6 @@ BuildRequires:	kdelibs4-devel
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
-BuildRequires:	ninja
 BuildArch:	noarch
 
 %description
@@ -95,7 +94,7 @@ This package provides Arabic translation for KDE.
 
 %files ar
 %lang(ar) %{_datadir}/locale/ar/LC_MESSAGES/*
-%{_datadir}/apps/klettres/ar/
+%{_datadir}/klettres/ar/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -236,9 +235,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files ca
 %lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
-%{_datadir}/apps/khangman/ca.txt
+%{_datadir}/khangman/ca.txt
 %{_datadir}/apps/kvtml/ca/
 %{_docdir}/HTML/ca/*
+%{_mandir}/ca/man1/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -274,8 +274,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files cs
 %lang(cs) %{_datadir}/locale/cs/LC_MESSAGES/*
-%{_datadir}/apps/khangman/cs.txt
-%{_datadir}/apps/klettres/cs/
+%{_datadir}/khangman/cs.txt
+%{_datadir}/klettres/cs/
 %{_datadir}/apps/kvtml/cs/
 %{_docdir}/HTML/cs/*
 %endif
@@ -331,8 +331,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files da
 %lang(da) %{_datadir}/locale/da/LC_MESSAGES/*
-%{_datadir}/apps/khangman/da.txt
-%{_datadir}/apps/klettres/da/
+%{_datadir}/khangman/da.txt
+%{_datadir}/klettres/da/
 %{_datadir}/apps/kvtml/da/
 %endif
 
@@ -352,10 +352,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files de
 %lang(de) %{_datadir}/locale/de/LC_MESSAGES/*
-%{_datadir}/apps/klettres/de/
-%{_datadir}/apps/khangman/de.txt
+%{_datadir}/klettres/de/
+%{_datadir}/khangman/de.txt
 %{_datadir}/apps/kvtml/de/
 %{_docdir}/HTML/de/*
+%{_mandir}/de/man1/*
+%{_mandir}/de/man6/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -412,11 +414,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files en_GB
 %lang(en_GB) %{_datadir}/locale/en_GB/LC_MESSAGES/*
-%{_datadir}/apps/klettres/en_GB/
+%{_datadir}/klettres/en_GB/
 %{_datadir}/apps/kvtml/en_GB/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.en_GB.xml
-%{_datadir}/apps/kturtle/data/logokeywords.en_GB.xml
-%{_datadir}/apps/kturtle/examples/en_GB/
+%{_datadir}/kturtle/data/logokeywords.en_GB.xml
+%{_datadir}/kturtle/examples/en_GB/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -454,10 +456,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files es
 %lang(es) %{_datadir}/locale/es/LC_MESSAGES/*
-%{_datadir}/apps/khangman/es.txt
-%{_datadir}/apps/klettres/es/
+%{_datadir}/khangman/es.txt
+%{_datadir}/klettres/es/
 %{_datadir}/apps/kvtml/es/
 %{_docdir}/HTML/es/*
+%{_mandir}/es/man1/*
+%{_mandir}/es/man6/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -476,7 +480,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files et
 %lang(et) %{_datadir}/locale/et/LC_MESSAGES/*
-%{_datadir}/apps/khangman/et.txt
+%{_datadir}/khangman/et.txt
 %{_datadir}/apps/kvtml/et/
 %{_docdir}/HTML/et/*
 %endif
@@ -516,7 +520,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files fi
 %lang(fi) %{_datadir}/locale/fi/LC_MESSAGES/*
 %{_datadir}/locale/fi/LC_SCRIPTS/
-%{_datadir}/apps/khangman/fi.txt
+%{_datadir}/khangman/fi.txt
 %{_datadir}/apps/kvtml/fi/
 %endif
 
@@ -555,9 +559,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files fr
 %lang(fr) %{_datadir}/locale/fr/LC_MESSAGES/*
 %{_datadir}/locale/fr/LC_SCRIPTS/
-%{_datadir}/apps/khangman/fr.txt
+%{_datadir}/khangman/fr.txt
 %{_datadir}/apps/kvtml/fr/
 %{_docdir}/HTML/fr/*
+%{_mandir}/fr/man1/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -594,7 +599,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files ga
 %lang(ga) %{_datadir}/locale/ga/LC_MESSAGES/*
-%{_datadir}/apps/khangman/ga.txt
+%{_datadir}/khangman/ga.txt
 %{_datadir}/apps/kvtml/ga/
 %endif
 
@@ -614,9 +619,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files gl
 %lang(gl) %{_datadir}/locale/gl/LC_MESSAGES/*
-%{_datadir}/apps/khangman/gl.txt
+%{_datadir}/khangman/gl.txt
 %{_datadir}/apps/kvtml/gl/
 %{_docdir}/HTML/gl/*
+%{_mandir}/gl/man1/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -652,7 +658,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files he
 %lang(he) %{_datadir}/locale/he/LC_MESSAGES/*
-%{_datadir}/apps/klettres/he/
+%{_datadir}/klettres/he/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -725,9 +731,9 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files hu
 %lang(hu) %{_datadir}/locale/hu/LC_MESSAGES/*
-%{_datadir}/apps/khangman/hu.txt
+%{_datadir}/khangman/hu.txt
 %{_datadir}/apps/kvtml/hu/
-%{_datadir}/apps/klettres/hu/
+%{_datadir}/klettres/hu/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -799,9 +805,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files it
 %lang(it) %{_datadir}/locale/it/LC_MESSAGES/*
-%{_datadir}/apps/klettres/it/
+%{_datadir}/klettres/it/
 %{_datadir}/apps/kvtml/it/
 %{_docdir}/HTML/it/*
+%{_mandir}/it/man1/*
+%{_mandir}/it/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -948,8 +956,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files lt
 %lang(lt) %{_datadir}/locale/lt/LC_MESSAGES/*
-%{_datadir}/apps/klettres/lt/
-%{_datadir}/apps/klettres/lt.txt
+%{_datadir}/klettres/lt/
+%{_datadir}/klettres/lt.txt
 %{_docdir}/HTML/lt/*
 %endif
 
@@ -1040,7 +1048,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files ml
 %lang(ml) %{_datadir}/locale/ml/LC_MESSAGES/*
-%{_datadir}/apps/klettres/ml/
+%{_datadir}/klettres/ml/
 %endif
 
 #------------------------------------------------------------------------------
@@ -1094,12 +1102,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nb
 %lang(nb) %{_datadir}/locale/nb/LC_MESSAGES/*
-%{_datadir}/apps/khangman/nb.txt
+%{_datadir}/khangman/nb.txt
 %{_datadir}/apps/kvtml/nb/
-%{_datadir}/apps/klettres/nb/
+%{_datadir}/klettres/nb/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.nb.xml
-%{_datadir}/apps/kturtle/data/logokeywords.nb.xml
-%{_datadir}/apps/kturtle/examples/nb/*.logo
+%{_datadir}/kturtle/data/logokeywords.nb.xml
+%{_datadir}/kturtle/examples/nb/*.logo
 %endif
 
 #------------------------------------------------------------------------------
@@ -1118,11 +1126,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nds
 %lang(nds) %{_datadir}/locale/nds/LC_MESSAGES/*
-%{_datadir}/apps/klettres/nds/
-%{_datadir}/apps/khangman/nds.txt
+%{_datadir}/klettres/nds/
+%{_datadir}/khangman/nds.txt
 %{_datadir}/apps/kvtml/nds/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.nds.xml
-%{_datadir}/apps/kturtle/examples/nds
+%{_datadir}/kturtle/examples/nds
 %endif
 
 #------------------------------------------------------------------------------
@@ -1159,12 +1167,14 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nl
 %lang(nl) %{_datadir}/locale/nl/LC_MESSAGES/*
-%{_datadir}/apps/klettres/nl/
+%{_datadir}/klettres/nl/
 %{_datadir}/apps/kvtml/nl/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.nl.xml
-%{_datadir}/apps/kturtle/data/logokeywords.nl.xml
-%{_datadir}/apps/kturtle/examples/nl/*.logo
+%{_datadir}/kturtle/data/logokeywords.nl.xml
+%{_datadir}/kturtle/examples/nl/*.logo
 %{_docdir}/HTML/nl/*
+%{_mandir}/nl/man1/*
+%{_mandir}/nl/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1183,7 +1193,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nn
 %lang(nn) %{_datadir}/locale/nn/LC_MESSAGES/*
-%{_datadir}/apps/khangman/nn.txt
+%{_datadir}/khangman/nn.txt
 %{_datadir}/apps/kvtml/nn/
 %{_docdir}/HTML/nn/*
 %endif
@@ -1222,9 +1232,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files pl
 %lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/*
 %{_datadir}/locale/pl/LC_SCRIPTS/
-%{_datadir}/apps/khangman/pl.txt
+%{_datadir}/khangman/pl.txt
 %{_datadir}/apps/kvtml/pl/
 %{_docdir}/HTML/pl/*
+%{_mandir}/pl/man1/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1243,9 +1254,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files pt
 %lang(pt) %{_datadir}/locale/pt/LC_MESSAGES/*
-%{_datadir}/apps/khangman/pt.txt
+%{_datadir}/khangman/pt.txt
 %{_datadir}/apps/kvtml/pt/
 %{_docdir}/HTML/pt/*
+%{_mandir}/pt/man1/*
+%{_mandir}/pt/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1283,10 +1296,12 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files pt_BR
 %lang(pt_BR) %{_datadir}/locale/pt_BR/LC_MESSAGES/*
-%{_datadir}/apps/khangman/pt_BR.txt
-%{_datadir}/apps/klettres/pt_BR/*
+%{_datadir}/khangman/pt_BR.txt
+%{_datadir}/klettres/pt_BR/*
 %{_datadir}/apps/kvtml/pt_BR/
 %{_docdir}/HTML/pt_BR/*
+%{_mandir}/pt_BR/man1/*
+%{_mandir}/pt_BR/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1327,8 +1342,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/ru/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/ru/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.ru.xml
-%{_datadir}/apps/klettres/ru
+%{_datadir}/klettres/ru
 %{_docdir}/HTML/ru/*
+%{_mandir}/ru/man1/*
+%{_mandir}/ru/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1401,7 +1418,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files sl
 %lang(sl) %{_datadir}/locale/sl/LC_MESSAGES/*
-%{_datadir}/apps/khangman/sl.txt
+%{_datadir}/khangman/sl.txt
 %{_datadir}/apps/kvtml/sl/*
 %endif
 
@@ -1433,7 +1450,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/desktoptheme/*/widgets/l10n/sr@ijekavian
 %{_datadir}/apps/desktoptheme/*/widgets/l10n/sr@ijekavianlatin
 %{_datadir}/apps/desktoptheme/default/icons/l10n/sr*
-%{_datadir}/apps/khangman/sr@latin.txt
+%{_datadir}/khangman/sr@latin.txt
 %{_datadir}/apps/kvtml/sr*/
 %{_docdir}/HTML/sr/*
 %{_docdir}/HTML/sr@latin/*
@@ -1455,9 +1472,11 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files sv
 %lang(sv) %{_datadir}/locale/sv/LC_MESSAGES/*
-%{_datadir}/apps/khangman/sv.txt
+%{_datadir}/khangman/sv.txt
 %{_datadir}/apps/kvtml/sv/
 %{_docdir}/HTML/sv/*
+%{_mandir}/sv/man1/*
+%{_mandir}/sv/man6/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1495,7 +1514,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files tg
 %lang(tg) %{_datadir}/locale/tg/LC_MESSAGES/*
 %{_datadir}/apps/kvtml/tg/
-%{_datadir}/apps/khangman/tg.txt
+%{_datadir}/khangman/tg.txt
 %endif
 
 #------------------------------------------------------------------------------
@@ -1534,7 +1553,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files tr
 %lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/*
-%{_datadir}/apps/khangman/tr.txt
+%{_datadir}/khangman/tr.txt
 %{_datadir}/apps/kvtml/tr/
 %endif
 
@@ -1557,8 +1576,10 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/*
 %{_datadir}/locale/uk/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/uk/
-%{_datadir}/apps/klettres/uk/
+%{_datadir}/klettres/uk/
 %{_docdir}/HTML/uk/*
+%{_mandir}/uk/man1/*
+%{_mandir}/uk/man6/*
 %endif
 
 #------------------------------------------------------------------------------
