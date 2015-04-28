@@ -238,7 +238,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
 %{_datadir}/apps/khangman/ca.txt
 %{_datadir}/apps/kvtml/ca/
-%{_dodcdir}/HTML/ca/*
+%{_docdir}/HTML/ca/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -277,7 +277,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/khangman/cs.txt
 %{_datadir}/apps/klettres/cs/
 %{_datadir}/apps/kvtml/cs/
-%{_dodcdir}/HTML/cs/*
+%{_docdir}/HTML/cs/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -355,7 +355,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/klettres/de/
 %{_datadir}/apps/khangman/de.txt
 %{_datadir}/apps/kvtml/de/
-%{_dodcdir}/HTML/de/*
+%{_docdir}/HTML/de/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -375,7 +375,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files el
 %lang(el) %{_datadir}/locale/el/LC_MESSAGES/*
 %{_datadir}/apps/kvtml/el
-%{_dodcdir}/HTML/el/
+%{_docdir}/HTML/el/
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -435,7 +435,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files eo
 %lang(eo) %{_datadir}/locale/eo/LC_MESSAGES/*
-%{_dodcdir}/HTML/eo/*
+%{_docdir}/HTML/eo/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -457,7 +457,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/khangman/es.txt
 %{_datadir}/apps/klettres/es/
 %{_datadir}/apps/kvtml/es/
-%{_dodcdir}/HTML/es/*
+%{_docdir}/HTML/es/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -478,7 +478,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(et) %{_datadir}/locale/et/LC_MESSAGES/*
 %{_datadir}/apps/khangman/et.txt
 %{_datadir}/apps/kvtml/et/
-%{_dodcdir}/HTML/et/*
+%{_docdir}/HTML/et/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -557,7 +557,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/fr/LC_SCRIPTS/
 %{_datadir}/apps/khangman/fr.txt
 %{_datadir}/apps/kvtml/fr/
-%{_dodcdir}/HTML/fr/*
+%{_docdir}/HTML/fr/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -616,7 +616,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(gl) %{_datadir}/locale/gl/LC_MESSAGES/*
 %{_datadir}/apps/khangman/gl.txt
 %{_datadir}/apps/kvtml/gl/
-%{_dodcdir}/HTML/gl/*
+%{_docdir}/HTML/gl/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -801,7 +801,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(it) %{_datadir}/locale/it/LC_MESSAGES/*
 %{_datadir}/apps/klettres/it/
 %{_datadir}/apps/kvtml/it/
-%{_dodcdir}/HTML/it/*
+%{_docdir}/HTML/it/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -821,7 +821,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files ja
 %lang(ja) %{_datadir}/locale/ja/LC_MESSAGES/*
 %{_datadir}/locale/ja/LC_SCRIPTS/
-%{_dodcdir}/HTML/ja/*
+%{_docdir}/HTML/ja/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -950,7 +950,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(lt) %{_datadir}/locale/lt/LC_MESSAGES/*
 %{_datadir}/apps/klettres/lt/
 %{_datadir}/apps/klettres/lt.txt
-%{_dodcdir}/HTML/lt/*
+%{_docdir}/HTML/lt/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1164,7 +1164,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.nl.xml
 %{_datadir}/apps/kturtle/data/logokeywords.nl.xml
 %{_datadir}/apps/kturtle/examples/nl/*.logo
-%{_dodcdir}/HTML/nl/*
+%{_docdir}/HTML/nl/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1185,7 +1185,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(nn) %{_datadir}/locale/nn/LC_MESSAGES/*
 %{_datadir}/apps/khangman/nn.txt
 %{_datadir}/apps/kvtml/nn/
-%{_dodcdir}/HTML/nn/*
+%{_docdir}/HTML/nn/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1224,7 +1224,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/pl/LC_SCRIPTS/
 %{_datadir}/apps/khangman/pl.txt
 %{_datadir}/apps/kvtml/pl/
-%{_dodcdir}/HTML/pl/*
+%{_docdir}/HTML/pl/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1245,7 +1245,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(pt) %{_datadir}/locale/pt/LC_MESSAGES/*
 %{_datadir}/apps/khangman/pt.txt
 %{_datadir}/apps/kvtml/pt/
-%{_dodcdir}/HTML/pt/*
+%{_docdir}/HTML/pt/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1286,7 +1286,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/khangman/pt_BR.txt
 %{_datadir}/apps/klettres/pt_BR/*
 %{_datadir}/apps/kvtml/pt_BR/
-%{_dodcdir}/HTML/pt_BR/*
+%{_docdir}/HTML/pt_BR/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1328,7 +1328,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/kvtml/ru/
 %{_datadir}/apps/katepart/syntax/logohighlightstyle.ru.xml
 %{_datadir}/apps/klettres/ru
-%{_dodcdir}/HTML/ru/*
+%{_docdir}/HTML/ru/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1435,8 +1435,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/desktoptheme/default/icons/l10n/sr*
 %{_datadir}/apps/khangman/sr@latin.txt
 %{_datadir}/apps/kvtml/sr*/
-%{_dodcdir}/HTML/sr/*
-%{_dodcdir}/HTML/sr@latin/*
+%{_docdir}/HTML/sr/*
+%{_docdir}/HTML/sr@latin/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1457,7 +1457,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(sv) %{_datadir}/locale/sv/LC_MESSAGES/*
 %{_datadir}/apps/khangman/sv.txt
 %{_datadir}/apps/kvtml/sv/
-%{_dodcdir}/HTML/sv/*
+%{_docdir}/HTML/sv/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1558,7 +1558,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/uk/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/uk/
 %{_datadir}/apps/klettres/uk/
-%{_dodcdir}/HTML/uk/*
+%{_docdir}/HTML/uk/*
 %endif
 
 #------------------------------------------------------------------------------
