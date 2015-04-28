@@ -416,7 +416,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(en_GB) %{_datadir}/locale/en_GB/LC_MESSAGES/*
 %{_datadir}/klettres/en_GB/
 %{_datadir}/apps/kvtml/en_GB/
-%{_datadir}/apps/katepart/syntax/logohighlightstyle.en_GB.xml
+%{_datadir}/katepart/syntax/logohighlightstyle.en_GB.xml
 %{_datadir}/kturtle/data/logokeywords.en_GB.xml
 %{_datadir}/kturtle/examples/en_GB/
 %endif
@@ -1105,7 +1105,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/khangman/nb.txt
 %{_datadir}/apps/kvtml/nb/
 %{_datadir}/klettres/nb/
-%{_datadir}/apps/katepart/syntax/logohighlightstyle.nb.xml
+%{_datadir}/katepart/syntax/logohighlightstyle.nb.xml
 %{_datadir}/kturtle/data/logokeywords.nb.xml
 %{_datadir}/kturtle/examples/nb/*.logo
 %endif
@@ -1129,7 +1129,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/klettres/nds/
 %{_datadir}/khangman/nds.txt
 %{_datadir}/apps/kvtml/nds/
-%{_datadir}/apps/katepart/syntax/logohighlightstyle.nds.xml
+%{_datadir}/katepart/syntax/logohighlightstyle.nds.xml
 %{_datadir}/kturtle/examples/nds
 %endif
 
@@ -1169,7 +1169,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(nl) %{_datadir}/locale/nl/LC_MESSAGES/*
 %{_datadir}/klettres/nl/
 %{_datadir}/apps/kvtml/nl/
-%{_datadir}/apps/katepart/syntax/logohighlightstyle.nl.xml
+%{_datadir}/katepart/syntax/logohighlightstyle.nl.xml
 %{_datadir}/kturtle/data/logokeywords.nl.xml
 %{_datadir}/kturtle/examples/nl/*.logo
 %{_docdir}/HTML/nl/*
@@ -1341,7 +1341,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/*
 %{_datadir}/locale/ru/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/ru/
-%{_datadir}/apps/katepart/syntax/logohighlightstyle.ru.xml
+%{_datadir}/katepart/syntax/logohighlightstyle.ru.xml
 %{_datadir}/klettres/ru
 %{_docdir}/HTML/ru/*
 %{_mandir}/ru/man1/*
