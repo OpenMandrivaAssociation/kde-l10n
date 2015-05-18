@@ -4,9 +4,9 @@
 # $ ls SOURCES/kde-l10n*tar.bz2 | grep -v @valencia | awk -F- '{print $3}' | tr '\n' ' '
 #
 # Note: ca@valencia is treated differently because of the @ in the tarball name
-%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hr hu ia id is it ja kk km ko lt lv nb nds nl nn pa pl pt pt_BR ro ru sk sl sv tr ug uk wa zh_CN zh_TW
+%define langlist ar bg bs ca cs da de el en_GB es et eu fa fi fr ga gl he hi hr hu ia id is it ja kk km ko lt lv nb nds nl nn pa pl pt pt_BR ro ru sk sl sv tr ug uk wa zh_CN zh_TW
 
-%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne kn ku gu hi lo mai mi mk ml mt mr ne oc se si sr ta tg th ven vi xh
+%define disabled_langs af az be bn_IN bo br csb cy eo fo fy hne kn ku gu lo mai mi mk ml mt mr ne oc se si sr ta tg th ven vi xh
 
 %define build_ca_valencia 0
 
@@ -15,7 +15,7 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	15.04.0
+Version:	15.04.1
 Release:	1
 Epoch:		3
 License:	LGPLv2+
@@ -1339,7 +1339,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files ru
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/*
-%{_datadir}/locale/ru/LC_SCRIPTS/
+#%{_datadir}/locale/ru/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/ru/
 %{_datadir}/katepart/syntax/logohighlightstyle.ru.xml
 %{_datadir}/klettres/ru
