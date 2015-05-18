@@ -239,6 +239,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/kvtml/ca/
 %{_docdir}/HTML/ca/*
 %{_mandir}/ca/man1/*
+%{_mandir}/ca/man6/*
 %endif
 
 #----------------------------------------------------------------------------------------
