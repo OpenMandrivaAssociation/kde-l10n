@@ -15,7 +15,7 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	15.04.1
+Version:	15.04.2
 Release:	1
 Epoch:		3
 License:	LGPLv2+
@@ -27,7 +27,7 @@ Url:		http://www.kde.org
 %{expand:%(\
     i=2; \
     for lang in %langlist; do\
-        echo "%%{expand:Source$i: ftp://ftp.kde.org/pub/kde/stable/%%{version}/src/%%{name}/%%{name}-$lang-%%{version}.tar.xz}";\
+        echo "%%{expand:Source$i: http://download.kde.org/stable/applications/%%{version}/src/%%{name}/%%{name}-$lang-%%{version}.tar.xz}";\
         i=$[i+1];\
     done\
     )
@@ -35,7 +35,7 @@ Url:		http://www.kde.org
 Source100:	kde-l10n.rpmlintrc
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-dtd45-xml
-BuildRequires:	kdelibs4-devel
+BuildRequires:	kdelibs-devel
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
@@ -1750,182 +1750,3 @@ pushd %{name}-ca@valencia-%{version}
      %ninja_install -C build
 popd
 %endif
-
-%changelog
-* Fri Nov 14 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.3-2
-- Add missing Dolphin Russian docbook
-
-* Tue Nov 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.3-1
-- New version 4.14.3
-
-* Wed Oct 15 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.2-1
-- New version 4.14.2
-
-* Tue Sep 30 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.14.1-1
-- New version 4.14.1
-- Drop no longer needed kcm_baloofile-ru.po (fixed upsteam)
-- Update files
-
-* Tue Sep 23 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-3
-- Add extra docbooks for Russian locale
-
-* Mon Jul 21 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-2
-- Use better kcm_baloofile ru translation
-
-* Tue Jul 15 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.3-1
-- New version 4.13.3
-- Enable fa locale
-
-* Wed Jun 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.13.2-1
-- New version 4.13.2
-- Enable id translations
-
-* Wed Apr 02 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.4-1
-- New version 4.12.4
-
-* Tue Mar 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.3-1
-- New version 4.12.3
-
-* Tue Feb 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.2-1
-- New version 4.12.2
-
-* Tue Jan 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.1-1
-- New version 4.12.1
-- Disable fa locale not provided by upstream
-
-* Wed Dec 04 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.4-1
-- New version 4.11.4
-
-* Wed Nov 06 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.3-1
-- New version 4.11.3
-- Update files for sl locale
-
-* Wed Oct 02 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.2-1
-- New version 4.11.2
-
-* Tue Sep 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.1-1
-- New version 4.11.1
-
-* Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.11.0-1
-- New version 4.11.0
-- Drop th and si translations
-- Update files list
-
-* Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.5-1
-- New version 4.10.5
-
-* Wed Jun 05 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.4-1
-- New version 4.10.4
-- Drop external backported kscreenlocker_greet.po ru
-
-* Thu May 23 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-3
-- Add missing ru translations kfilemodule.po and makekdewidgets.po
-
-* Tue May 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.3-2
-- New version 4.10.3
-- Backport kscreenlocker_greet.po ru from KDE 4.10.4
-
-* Wed Apr 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.2-1
-- New version 4.10.2
-
-* Sat Mar 09 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.1-1
-- New version 4.10.1
-
-* Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.10.0-1
-- New version 4.10.0
-- Update files for sl
-- Update files for lt
-- Add autocorrect files
-
-* Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.4-1
-- New version 4.9.4
-
-* Wed Nov 07 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.3-1
-- New version 4.9.3
-
-* Thu Oct 04 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.2-1
-- New version 4.9.2
-- Update files for fr locale
-
-* Sat Sep 08 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.1-1
-- New version 4.9.1
-
-* Mon Aug 06 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.9.0-1
-- New version 4.9.0
-
-* Mon Jul 16 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.8.97-1
-- New version 4.8.97
-
-* Thu Jun 28 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.8.95-1
-- Update to 4.8.95
-- Update file list
-- Disable kde-l10n-ru-4.8.4-translations patch
-
-* Fri Jun 08 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.4-69.1mib2010.2
-- New version 4.8.4
-- Add kde-l10n-ru-4.8.4-translations patch from Rosa
-- MIB (Mandriva International Backports)
-
-* Fri May 04 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.3-69.1mib2010.2
-- New version 4.8.3
-- MIB (Mandriva International Backports)
-
-* Wed Apr 04 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.2-69.1mib2010.2
-- New version 4.8.2
-- Enable pt_BR language
-- MIB (Mandriva International Backports)
-
-* Wed Mar 07 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.1-69.1mib2010.2
-- New version 4.8.1
-- Enable he, id and ug languages again
-- Update file lists for fr and pa packages
-- MIB (Mandriva International Backports)
-
-* Mon Feb 20 2012 Andrey Bondrov <bondrov@math.dvgu.ru> 3:4.8.0-69.1mib2010.2
-+ Revision: 762070
-- Backport to 2010.2 for MIB users
-- Disable missing he, id, kn and ug languages
-- MIB (Mandriva International Backports)
-
-* Wed Jan 18 2012 Nicolas Lécureuil <nlecureuil@mandriva.com> 3:4.7.97-1
-+ Revision: 762070
-- Enable fa and si
-- Fix uk file list
-- Enable pt
-- Disable pt translation for now
-- New version
-- Add back epoch
-- Remove Source1
-- Disable build_ca_valencia
-- Remove %%rename  as kde4-l10n is on not supported anymore distributions
-- Remove comments
-- Disable build_ca_valencia for now
-- Update spec file ( sync with mageia)
-- New sources
-- New version 4.7.80
-
-  + Zé <ze@mandriva.org>
-    - add 4.7.1 sources
-    - drop old sources
-    - drop old sources
-
-  + vsinitsyn <vsinitsyn>
-    - Updated Russian translation for Dolphin, KSysGuard and Nepomuk (this time correct way)
-    - Revert commit 696126: Never modify tarball directly
-    - Updated Russian translation for Dolphin, KSysGuard and Nepomuk
-
-* Thu Jul 07 2011 Per Oyvind Karlsen <peroyvind@mandriva.org> 3:4.6.4-3
-+ Revision: 689150
-- fix upgrade from 2009.0 by provides/obsoleting kde4-l10n-foo
-- use %%global, not %%define (which'll break) for loop in %%{expand:...}
-
-* Mon Jun 27 2011 Alex Burmashev <burmashev@mandriva.org> 3:4.6.4-2
-+ Revision: 687462
-- updated russian dolphin locale
-
-  + Funda Wang <fwang@mandriva.org>
-    - please remove duplicate translations with kdepim
-
-* Tue Jun 14 2011 Nicolas Lécureuil <nlecureuil@mandriva.com> 3:4.6.4-1
-+ Revision: 685093
-- import kde-l10n
