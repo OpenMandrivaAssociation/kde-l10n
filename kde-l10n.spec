@@ -484,6 +484,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/khangman/et.txt
 %{_datadir}/apps/kvtml/et/
 %{_docdir}/HTML/et/*
+%{_mandir}/et/man1/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -562,6 +563,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/fr/LC_SCRIPTS/
 %{_datadir}/khangman/fr.txt
 %{_datadir}/apps/kvtml/fr/
+%{_datadir}/kstars/fr/*.dat
 %{_docdir}/HTML/fr/*
 %{_mandir}/fr/man1/*
 %endif
@@ -1132,6 +1134,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/kvtml/nds/
 %{_datadir}/katepart/syntax/logohighlightstyle.nds.xml
 %{_datadir}/kturtle/examples/nds
+%{_datadir}/kstars/nds/*.dat
 %endif
 
 #------------------------------------------------------------------------------
@@ -1556,6 +1559,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(tr) %{_datadir}/locale/tr/LC_MESSAGES/*
 %{_datadir}/khangman/tr.txt
 %{_datadir}/apps/kvtml/tr/
+%{_docdir}/HTML/tr/*
+%{_mandir}/tr/man1/*
 %endif
 
 #------------------------------------------------------------------------------
