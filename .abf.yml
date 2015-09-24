@@ -1,9 +1,8 @@
-sources:
+removed_sources:
   kde-l10n-ar-15.08.0.tar.xz: e770704d7b0cc5959ddeb5050534e2b218e08396
   kde-l10n-bg-15.08.0.tar.xz: 236a2bb19f022cbdbfcefd7b26e707e41caa1799
   kde-l10n-bs-15.08.0.tar.xz: 4d5660722455edaceeb9f2abb773f4f87a667727
   kde-l10n-ca-15.08.0.tar.xz: b27b2be324733644f5688b161933cea782ddd4b9
-  kde-l10n-ca@valencia-15.08.0.tar.xz: c8bdcc6c47412d676bf923b37191bd611107e1e9
   kde-l10n-cs-15.08.0.tar.xz: 836e9f28bf3dc404bfc218746b4578ad11422229
   kde-l10n-da-15.08.0.tar.xz: 1a972e55ad9f650e9502603738a5643728c1363f
   kde-l10n-de-15.08.0.tar.xz: 1136b550feaf179a4e386f7a8c7ab8ec0de96b75
@@ -15,8 +14,14 @@ sources:
   kde-l10n-eu-15.08.0.tar.xz: 7c92196983e1a8ea7a89841d2caa0dc21a579072
   kde-l10n-fa-15.08.0.tar.xz: 6d6c9d69eebbed4557f5355a2683c9e0ac71c7b4
   kde-l10n-fi-15.08.0.tar.xz: 05fb57adc2ca8371ea76afeba5821d37f12c4e6b
+  kde-l10n-fr-15.08.0.tar.xz: 3841843b359da2c7eb0ee2056cf0ce643a8ff243
+  kde-l10n-ga-15.08.0.tar.xz: 71967af48aa2dcbc6290d5c9fd1c7a7282b05f9c
+  kde-l10n-gl-15.08.0.tar.xz: bf9468acf5b2e4b439b5c3a0f5fd93e06a170ec9
+  kde-l10n-he-15.08.0.tar.xz: 4ddef29de4e737cda4fdafc1bd2d975b13dc3317
   kde-l10n-hi-15.08.0.tar.xz: 2032fc06b2d1f944d046083a75d464e00a35326a
   kde-l10n-hr-15.08.0.tar.xz: 04a9d62f5d3d479c3f7872fc2311547ba8d9c4e2
+  kde-l10n-hu-15.08.0.tar.xz: 636b3476893186e66d59557bc558c8d623df37ae
+  kde-l10n-ia-15.08.0.tar.xz: 68ef1096972aebd2a4e03b6ba07b7bc3461e61ea
   kde-l10n-id-15.08.0.tar.xz: cab47eb2e7054d4133e4fbdeb40c9431fe681706
   kde-l10n-is-15.08.0.tar.xz: 949596b8f100a75050ccd067e9e7dd13edf06328
   kde-l10n-it-15.08.0.tar.xz: eca3dd1e02025f2b5d758abd7aee75f4d85a7dd6
@@ -36,14 +41,8 @@ sources:
   kde-l10n-pt-15.08.0.tar.xz: 355f6fa33423d1ad7b2a7f1fcf35ccceb324e063
   kde-l10n-pt_BR-15.08.0.tar.xz: cccbadc191afb8683d283a384b38643163227b73
   kde-l10n-ro-15.08.0.tar.xz: e5220107af89cc42b3b387f934d5b487d9026151
-  kde-l10n-sk-15.08.0.tar.xz: be6359e2e06e9b87efef7ef39075994372aef656
-  kde-l10n-fr-15.08.0.tar.xz: 3841843b359da2c7eb0ee2056cf0ce643a8ff243
-  kde-l10n-ga-15.08.0.tar.xz: 71967af48aa2dcbc6290d5c9fd1c7a7282b05f9c
-  kde-l10n-gl-15.08.0.tar.xz: bf9468acf5b2e4b439b5c3a0f5fd93e06a170ec9
-  kde-l10n-he-15.08.0.tar.xz: 4ddef29de4e737cda4fdafc1bd2d975b13dc3317
-  kde-l10n-hu-15.08.0.tar.xz: 636b3476893186e66d59557bc558c8d623df37ae
-  kde-l10n-ia-15.08.0.tar.xz: 68ef1096972aebd2a4e03b6ba07b7bc3461e61ea
   kde-l10n-ru-15.08.0.tar.xz: db738b3bbc1201760632db4ae003b2bae6f4f076
+  kde-l10n-sk-15.08.0.tar.xz: be6359e2e06e9b87efef7ef39075994372aef656
   kde-l10n-sl-15.08.0.tar.xz: 8b1c2bea37cd1b6ce8557e76396146bebc1a7bc3
   kde-l10n-sr-15.08.0.tar.xz: 7568f9e67769713084a1105fe1c87727df73ee6c
   kde-l10n-sv-15.08.0.tar.xz: 51f9c0866bd1d68209530b00f379fd981a060b61
@@ -53,3 +52,58 @@ sources:
   kde-l10n-wa-15.08.0.tar.xz: 7d7a20dfbfcc35d12ab0fb71f150646210a06748
   kde-l10n-zh_CN-15.08.0.tar.xz: 3cda7f8bf003960ec5f72177e8d220236d8010f9
   kde-l10n-zh_TW-15.08.0.tar.xz: 65a9fe344a967d381587ba17d00b0e34713a53b0
+sources:
+  kde-l10n-ar-15.08.1.tar.xz: 089764e6aa38db01133f43cff82b67784464b6dc
+  kde-l10n-bg-15.08.1.tar.xz: 7a263cd33cfa7fd3bb9480aecb65ec242992e33d
+  kde-l10n-bs-15.08.1.tar.xz: a67ceecb8e4b01ca076ad359c60e6dd11641ed94
+  kde-l10n-ca-15.08.1.tar.xz: 3ce6c6ea3851a304b936a4d310138d840cafe75a
+  kde-l10n-ca@valencia-15.08.0.tar.xz: c8bdcc6c47412d676bf923b37191bd611107e1e9
+  kde-l10n-cs-15.08.1.tar.xz: 8db12788ab167cb75604576a6470023875ff33fd
+  kde-l10n-da-15.08.1.tar.xz: b615185d06524eee4d9987d5432ca7aa6fda7dd6
+  kde-l10n-de-15.08.1.tar.xz: dce19194bc6e42c2e8fae61e73d16c51f2e18bc9
+  kde-l10n-el-15.08.1.tar.xz: 1daad1e8d5636bae58d6c6d9693bc6179cc01f34
+  kde-l10n-en_GB-15.08.1.tar.xz: f9e2010536ab64b358674c37a473954761247275
+  kde-l10n-eo-15.08.1.tar.xz: 5356db45a443985347dc7847488e224c70302637
+  kde-l10n-es-15.08.1.tar.xz: 07f23b65807a74e4aba9c0c4834cc4a85e57035a
+  kde-l10n-et-15.08.1.tar.xz: 74028072ec157e28f5dff34ff37107db80f1a7c5
+  kde-l10n-eu-15.08.1.tar.xz: 635070cc3f78024d01b957755a3de94365a5617d
+  kde-l10n-fa-15.08.1.tar.xz: d4a10dba7fba7d24b6f236c228469c77378dc321
+  kde-l10n-fi-15.08.1.tar.xz: 94db5f85a8f2af33b11628831a18b375c97b4049
+  kde-l10n-fr-15.08.1.tar.xz: 757988a82c279a276f3db31918dbe1d47a4fc842
+  kde-l10n-ga-15.08.1.tar.xz: 25e96d995c7a7701f0b0a7090abe9255843bcc8b
+  kde-l10n-gl-15.08.1.tar.xz: 4cdd47e27aed64cddfee43d47caa1b279eca62a0
+  kde-l10n-he-15.08.1.tar.xz: 36bb67a8c5c12d70a70a13e68075a0b8c7ceac4c
+  kde-l10n-hi-15.08.1.tar.xz: 2f3255b8a3533315a0018e4bf1c9e0ad5bb80609
+  kde-l10n-hr-15.08.1.tar.xz: 580f4b0f45a9eee2d73985b231feae3afe713b9b
+  kde-l10n-hu-15.08.1.tar.xz: 9547e149ac9b13eeead15a806ac2f841eb9ac076
+  kde-l10n-ia-15.08.1.tar.xz: e8dc8fcec9a0794ba183fd1de51f010e9fac20c9
+  kde-l10n-id-15.08.1.tar.xz: 54cbcf736fe340d0615ef0febf9274ef0d9fd9a1
+  kde-l10n-is-15.08.1.tar.xz: c3a1b4c120b292d52cfd80cc1e5de39ed1519f55
+  kde-l10n-it-15.08.1.tar.xz: 245db74fc728344405703e67dc715ad64950deef
+  kde-l10n-ja-15.08.1.tar.xz: fded1c9cae9ed45e68227cb2167d37b7d68adafb
+  kde-l10n-kk-15.08.1.tar.xz: 8480bc4c9cd650d213f1573d22a9b005431352b2
+  kde-l10n-km-15.08.1.tar.xz: b53598f800c86478d49fcd62807b6a7a5a6286b1
+  kde-l10n-ko-15.08.1.tar.xz: ddafc4a23702ea4d0263db117732bf094e0bf26f
+  kde-l10n-lt-15.08.1.tar.xz: f4076c3a8992d59ea6145115772dd9f74c9c7e91
+  kde-l10n-lv-15.08.1.tar.xz: ea67ee720aae6e69f906745de830baeb6cfb6e4a
+  kde-l10n-mr-15.08.1.tar.xz: 4092d0aa931b455bc8d94b196330e8d1a4cf23f3
+  kde-l10n-nb-15.08.1.tar.xz: c57484cc3a597a8c86fd63e00df048eea1df2d8a
+  kde-l10n-nds-15.08.1.tar.xz: f4c3e8862751571b03a8b5bafdadd4da9f04fe60
+  kde-l10n-nl-15.08.1.tar.xz: c48e054a8196a9ed44f316dbe1fc43d57050aaa0
+  kde-l10n-nn-15.08.1.tar.xz: 4bf729aee8cf4ca7d6005e56b315d7f0f599cb0e
+  kde-l10n-pa-15.08.1.tar.xz: 4a4197970ca1cbc4ba8509b6bb73ef5993291420
+  kde-l10n-pl-15.08.1.tar.xz: 5a5bf994a16761f5bd85bc3265c6c74610134552
+  kde-l10n-pt-15.08.1.tar.xz: 79d648901edf5d2de7e37d2f129575f73ecb1299
+  kde-l10n-pt_BR-15.08.1.tar.xz: b39ac1200266f657e9225505cc5d4b8546747108
+  kde-l10n-ro-15.08.1.tar.xz: e1eaf83fe051bdf8a5a2d2b87174201122f38394
+  kde-l10n-ru-15.08.1.tar.xz: e8777ef6d0e8f9f7898ac6628ca938a304b70fdb
+  kde-l10n-sk-15.08.1.tar.xz: d98a78e7a3103145896e4dad6a9f54a9c3a263c6
+  kde-l10n-sl-15.08.1.tar.xz: 1fa7b75b0b5e47666ee60637e4024b2d409db07f
+  kde-l10n-sr-15.08.1.tar.xz: 93d673f9071c9e7df57036c8f5f21dbd7d086932
+  kde-l10n-sv-15.08.1.tar.xz: 5bb5f0c751fcf22193b2a0b8696849d526fd6966
+  kde-l10n-tr-15.08.1.tar.xz: b702bb86094666a6a0dfcf385b6ca23e3ff7858b
+  kde-l10n-ug-15.08.1.tar.xz: ec258644c990780cae9dc7dfb8e9dc81c9b5cf6f
+  kde-l10n-uk-15.08.1.tar.xz: d59187dee3eddd1f6a74bd36e07400b59b7f7682
+  kde-l10n-wa-15.08.1.tar.xz: e54009082f3eb71c1ecad6ad4f350bb631ad2c61
+  kde-l10n-zh_CN-15.08.1.tar.xz: 9ac6f61d6218f7d16f6ff0118c5ddcc8ad8bce4d
+  kde-l10n-zh_TW-15.08.1.tar.xz: 1420b2d05ca14ecfab04ff9a626a7d356f699918
