@@ -439,7 +439,6 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files eo
 %lang(eo) %{_datadir}/locale/eo/LC_MESSAGES/*
-%{_docdir}/HTML/eo/*
 %endif
 
 #----------------------------------------------------------------------------------------
