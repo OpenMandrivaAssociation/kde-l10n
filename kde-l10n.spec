@@ -8,7 +8,7 @@
 
 %define disabled_langs af az be bn_IN bo br csb cy fo fy hne kn ku gu lo mai mi mk ml mt ne oc se si sr ta tg th ven vi xh
 
-%define build_ca_valencia 1
+%define build_ca_valencia 0
 
 %{expand:%(for lang in %{disabled_langs}; do echo "%%{expand:%%define build_$lang 0}"; done)}
 %{expand:%(for lang in %{langlist}; do echo "%%{expand:%%define build_$lang 1}"; done)}
@@ -23,7 +23,7 @@ Group:		System/Internationalization
 Url:		http://www.kde.org
 # l10n sources
 # list ca@valencia tarball separately due to the @ in the tarball name
-Source1: kde-l10n-ca@valencia-%{version}.tar.xz
+#Source1: kde-l10n-ca@valencia-%{version}.tar.xz
 %{expand:%(\
     i=2; \
     for lang in %langlist; do\
