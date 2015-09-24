@@ -39,6 +39,7 @@ BuildRequires:	kdelibs-devel
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5I18n)
+BuildRequires:	cmake(KF5KDELibs4Support)
 BuildArch:	noarch
 
 %description
