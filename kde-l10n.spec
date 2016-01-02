@@ -340,6 +340,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/ktuberling/sounds/da.soundtheme
 %{_datadir}/ktuberling/sounds/da/*
 %{_datadir}/apps/kvtml/da/
+%{_mandir}/da/man1/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -1619,7 +1620,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/uk/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/uk/
 %{_datadir}/klettres/uk/
-%{_datadir}/ktuberling/sounds/ul.soundtheme
+%{_datadir}/ktuberling/sounds/uk.soundtheme
 %{_datadir}/ktuberling/sounds/uk/*
 %{_docdir}/HTML/uk/*
 %{_mandir}/uk/man1/*
