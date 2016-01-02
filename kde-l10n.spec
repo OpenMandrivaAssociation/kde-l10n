@@ -15,8 +15,8 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	15.08.3
-Release:	2
+Version:	15.12.0
+Release:	1
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -237,6 +237,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files ca
 %lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
 %{_datadir}/khangman/ca.txt
+%{_datadir}/ktuberling/sounds/ca.soundtheme
+%{_datadir}/ktuberling/sounds/ca/*
 %{_datadir}/apps/kvtml/ca/
 %{_docdir}/HTML/ca/*
 %{_mandir}/ca/man1/*
@@ -335,6 +337,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(da) %{_datadir}/locale/da/LC_MESSAGES/*
 %{_datadir}/khangman/da.txt
 %{_datadir}/klettres/da/
+%{_datadir}/ktuberling/sounds/da.soundtheme
+%{_datadir}/ktuberling/sounds/da/*
 %{_datadir}/apps/kvtml/da/
 %endif
 
@@ -357,6 +361,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/klettres/de/
 %{_datadir}/khangman/de.txt
 %{_datadir}/apps/kvtml/de/
+%{_datadir}/ktuberling/sounds/de.soundtheme
+%{_datadir}/ktuberling/sounds/de/*
 %{_docdir}/HTML/de/*
 %{_mandir}/de/man1/*
 %{_mandir}/de/man6/*
@@ -379,6 +385,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files el
 %lang(el) %{_datadir}/locale/el/LC_MESSAGES/*
 %{_datadir}/apps/kvtml/el
+%{_datadir}/ktuberling/sounds/el.soundtheme
+%{_datadir}/ktuberling/sounds/el/*
 %{_docdir}/HTML/el/
 %endif
 
@@ -460,6 +468,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/khangman/es.txt
 %{_datadir}/klettres/es/
 %{_datadir}/apps/kvtml/es/
+%{_datadir}/ktuberling/sounds/es.soundtheme
+%{_datadir}/ktuberling/sounds/es/*
 %{_docdir}/HTML/es/*
 %{_mandir}/es/man1/*
 %{_mandir}/es/man6/*
@@ -524,6 +534,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/fi/LC_SCRIPTS/
 %{_datadir}/khangman/fi.txt
 %{_datadir}/apps/kvtml/fi/
+%{_datadir}/ktuberling/sounds/fi.soundtheme
+%{_datadir}/ktuberling/sounds/fi/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -565,6 +577,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/kvtml/fr/
 %{_datadir}/kstars/fr/*.dat
 %{_docdir}/HTML/fr/*
+%{_datadir}/ktuberling/sounds/fr.soundtheme
+%{_datadir}/ktuberling/sounds/fr/*
 %{_mandir}/fr/man1/*
 %endif
 
@@ -604,6 +618,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(ga) %{_datadir}/locale/ga/LC_MESSAGES/*
 %{_datadir}/khangman/ga.txt
 %{_datadir}/apps/kvtml/ga/
+%{_datadir}/ktuberling/sounds/ga.soundtheme
+%{_datadir}/ktuberling/sounds/ga/*
 %endif
 
 #----------------------------------------------------------------------------------------
@@ -625,6 +641,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/khangman/gl.txt
 %{_datadir}/apps/kvtml/gl/
 %{_docdir}/HTML/gl/*
+%{_datadir}/ktuberling/sounds/gl.soundtheme
+%{_datadir}/ktuberling/sounds/gl/*
 %{_mandir}/gl/man1/*
 %endif
 
@@ -810,6 +828,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(it) %{_datadir}/locale/it/LC_MESSAGES/*
 %{_datadir}/klettres/it/
 %{_datadir}/apps/kvtml/it/
+%{_datadir}/ktuberling/sounds/it.soundtheme
+%{_datadir}/ktuberling/sounds/it/*
 %{_docdir}/HTML/it/*
 %{_mandir}/it/man1/*
 %{_mandir}/it/man6/*
@@ -961,6 +981,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(lt) %{_datadir}/locale/lt/LC_MESSAGES/*
 %{_datadir}/klettres/lt/
 %{_datadir}/klettres/lt.txt
+%{_datadir}/ktuberling/sounds/lt.soundtheme
+%{_datadir}/ktuberling/sounds/lt/*
 %{_docdir}/HTML/lt/*
 %endif
 
@@ -1135,6 +1157,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/katepart/syntax/logohighlightstyle.nds.xml
 %{_datadir}/kturtle/examples/nds
 %{_datadir}/kstars/nds/*.dat
+%{_datadir}/ktuberling/sounds/nds.soundtheme
+%{_datadir}/ktuberling/sounds/nds/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1176,6 +1200,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/katepart/syntax/logohighlightstyle.nl.xml
 %{_datadir}/kturtle/data/logokeywords.nl.xml
 %{_datadir}/kturtle/examples/nl/*.logo
+%{_datadir}/ktuberling/sounds/nl.soundtheme
+%{_datadir}/ktuberling/sounds/nl/*
 %{_docdir}/HTML/nl/*
 %{_mandir}/nl/man1/*
 %{_mandir}/nl/man6/*
@@ -1260,6 +1286,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(pt) %{_datadir}/locale/pt/LC_MESSAGES/*
 %{_datadir}/khangman/pt.txt
 %{_datadir}/apps/kvtml/pt/
+%{_datadir}/ktuberling/sounds/pt.soundtheme
+%{_datadir}/ktuberling/sounds/pt/*
 %{_docdir}/HTML/pt/*
 %{_mandir}/pt/man1/*
 %{_mandir}/pt/man6/*
@@ -1325,6 +1353,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %files ro
 %lang(ro) %{_datadir}/locale/ro/LC_MESSAGES/*
 %{_datadir}/apps/kvtml/ro/
+%{_datadir}/ktuberling/sounds/ro.soundtheme
+%{_datadir}/ktuberling/sounds/ro/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1347,6 +1377,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/apps/kvtml/ru/
 %{_datadir}/katepart/syntax/logohighlightstyle.ru.xml
 %{_datadir}/klettres/ru
+%{_datadir}/ktuberling/sounds/ru.soundtheme
+%{_datadir}/ktuberling/sounds/ru/*
 %{_docdir}/HTML/ru/*
 %{_mandir}/ru/man1/*
 %{_mandir}/ru/man6/*
@@ -1424,6 +1456,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(sl) %{_datadir}/locale/sl/LC_MESSAGES/*
 %{_datadir}/khangman/sl.txt
 %{_datadir}/apps/kvtml/sl/*
+%{_datadir}/ktuberling/sounds/sl.soundtheme
+%{_datadir}/ktuberling/sounds/sl/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1478,6 +1512,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %lang(sv) %{_datadir}/locale/sv/LC_MESSAGES/*
 %{_datadir}/khangman/sv.txt
 %{_datadir}/apps/kvtml/sv/
+%{_datadir}/ktuberling/sounds/sv.soundtheme
+%{_datadir}/ktuberling/sounds/sv/*
 %{_docdir}/HTML/sv/*
 %{_mandir}/sv/man1/*
 %{_mandir}/sv/man6/*
@@ -1583,6 +1619,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 %{_datadir}/locale/uk/LC_SCRIPTS/
 %{_datadir}/apps/kvtml/uk/
 %{_datadir}/klettres/uk/
+%{_datadir}/ktuberling/sounds/ul.soundtheme
+%{_datadir}/ktuberling/sounds/uk/*
 %{_docdir}/HTML/uk/*
 %{_mandir}/uk/man1/*
 %{_mandir}/uk/man6/*
@@ -1655,6 +1693,8 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files wa
 %lang(wa) %{_datadir}/locale/wa/LC_MESSAGES/*
+%{_datadir}/ktuberling/sounds/wa.soundtheme
+%{_datadir}/ktuberling/sounds/wa/*
 %endif
 
 #------------------------------------------------------------------------------
