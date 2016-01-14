@@ -15,7 +15,7 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	15.12.0
+Version:	15.12.1
 Release:	1
 Epoch:		3
 License:	LGPLv2+
@@ -1330,6 +1330,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files pt_BR
 %lang(pt_BR) %{_datadir}/locale/pt_BR/LC_MESSAGES/*
+%{_datadir}/autocorrect/pt_BR.xml
 %{_datadir}/khangman/pt_BR.txt
 %{_datadir}/klettres/pt_BR/*
 %{_datadir}/apps/kvtml/pt_BR/
