@@ -236,6 +236,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files ca
 %lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
+%lang(ca) %{_datadir}/locale/ca/LC_SCRIPTS/*
 %{_datadir}/khangman/ca.txt
 %{_datadir}/ktuberling/sounds/ca.soundtheme
 %{_datadir}/ktuberling/sounds/ca/*
@@ -1129,6 +1130,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nb
 %lang(nb) %{_datadir}/locale/nb/LC_MESSAGES/*
+%lang(nb) %{_datadir}/locale/nb/LC_SCRIPTS/*
 %{_datadir}/khangman/nb.txt
 %{_datadir}/apps/kvtml/nb/
 %{_datadir}/klettres/nb/
@@ -1225,6 +1227,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files nn
 %lang(nn) %{_datadir}/locale/nn/LC_MESSAGES/*
+%lang(nn) %{_datadir}/locale/nn/LC_SCRIPTS/*
 %{_datadir}/khangman/nn.txt
 %{_datadir}/apps/kvtml/nn/
 %{_docdir}/HTML/nn/*
