@@ -15,7 +15,7 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	15.12.3
+Version:	16.04.0
 Release:	1
 Epoch:		3
 License:	LGPLv2+
@@ -336,6 +336,7 @@ Conflicts:	konq-plugins < 1:4.6.1
 
 %files da
 %lang(da) %{_datadir}/locale/da/LC_MESSAGES/*
+%{_docdir}/HTML/da/umbrello
 %{_datadir}/khangman/da.txt
 %{_datadir}/klettres/da/
 %{_datadir}/ktuberling/sounds/da.soundtheme
