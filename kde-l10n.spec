@@ -15,8 +15,8 @@
 
 Summary:	Internationalization support for KDE
 Name:		kde-l10n
-Version:	16.04.0
-Release:	2
+Version:	16.04.1
+Release:	1
 Epoch:		3
 License:	LGPLv2+
 Group:		System/Internationalization
@@ -248,7 +248,6 @@ Conflicts:	khelpcenter < 16.04.0
 
 %files ca
 %lang(ca) %{_datadir}/locale/ca/LC_MESSAGES/*
-%lang(ca) %{_datadir}/locale/ca/LC_SCRIPTS/*
 %{_datadir}/khangman/ca.txt
 %{_datadir}/ktuberling/sounds/ca.soundtheme
 %{_datadir}/ktuberling/sounds/ca/*
@@ -1189,7 +1188,6 @@ Conflicts:	khelpcenter < 16.04.0
 
 %files nb
 %lang(nb) %{_datadir}/locale/nb/LC_MESSAGES/*
-%lang(nb) %{_datadir}/locale/nb/LC_SCRIPTS/*
 %{_datadir}/khangman/nb.txt
 %{_datadir}/apps/kvtml/nb/
 %{_datadir}/klettres/nb/
