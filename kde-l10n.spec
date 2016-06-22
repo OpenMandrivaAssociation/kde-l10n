@@ -103,6 +103,26 @@ This package provides Arabic translation for KDE.
 
 #----------------------------------------------------------------------------------------
 
+%if %{build_ast}
+%package ast
+Summary:	Asturian language support for KDE
+Group:		System/Internationalization
+Provides:	%{name} = %{version}
+Requires:	locales-ast
+Provides:	%{name}-Asturian = %{version}-%{release}
+Conflicts:	konq-plugins < 1:4.6.1
+Conflicts:	khelpcenter = 16.04.0-1
+
+%description ast
+This package provides Asturian translation for KDE.
+
+%files ast
+%lang(ast) %{_datadir}/locale/ast/LC_MESSAGES/*
+%endif
+
+
+#----------------------------------------------------------------------------------------
+
 %if %{build_az}
 %package az
 Summary:	Azerbaijani language support for KDE
@@ -1555,22 +1575,19 @@ Conflicts:	khelpcenter = 16.04.0-1
 
 %files sr
 %lang(sr) %{_datadir}/locale/sr/LC_MESSAGES/*
-%{_datadir}/locale/sr/LC_SCRIPTS/
 %{_datadir}/locale/sr@latin/LC_MESSAGES/*
-%{_datadir}/locale/sr@latin/LC_SCRIPTS/
 %{_datadir}/locale/sr@ijekavian/LC_MESSAGES/
-%{_datadir}/locale/sr@ijekavian/LC_SCRIPTS/
 %{_datadir}/locale/sr@ijekavianlatin/LC_MESSAGES/
-%{_datadir}/locale/sr@ijekavianlatin/LC_SCRIPTS
-%{_datadir}/apps/desktoptheme/*/widgets/l10n/sr
-%{_datadir}/apps/desktoptheme/*/widgets/l10n/sr@latin
-%{_datadir}/apps/desktoptheme/*/widgets/l10n/sr@ijekavian
-%{_datadir}/apps/desktoptheme/*/widgets/l10n/sr@ijekavianlatin
-%{_datadir}/apps/desktoptheme/default/icons/l10n/sr*
+%{_datadir}/lokalize/icons/*/*/actions/l10n/sr
+%{_datadir}/lokalize/icons/*/*/actions/l10n/sr@*
 %{_datadir}/khangman/sr@latin.txt
+%{_datadir}/ktuberling/sounds/sr
+%{_datadir}/ktuberling/sounds/sr*.soundtheme
 %{_datadir}/apps/kvtml/sr*/
 %{_docdir}/HTML/sr/*
 %{_docdir}/HTML/sr@latin/*
+%{_mandir}/sr/man1/*
+%{_mandir}/sr@latin/man1/*
 %endif
 
 #------------------------------------------------------------------------------
