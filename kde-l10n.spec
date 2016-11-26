@@ -403,6 +403,7 @@ Conflicts:	khelpcenter = 16.04.0-1
 %{_datadir}/apps/kvtml/de/
 %{_datadir}/ktuberling/sounds/de.soundtheme
 %{_datadir}/ktuberling/sounds/de/*
+%{_datadir}/step/objinfo/l10n/de/
 %{_docdir}/HTML/de/*
 %{_mandir}/de/man1/*
 %{_mandir}/de/man6/*
@@ -895,6 +896,7 @@ Conflicts:	khelpcenter = 16.04.0-1
 %{_datadir}/apps/kvtml/it/
 %{_datadir}/ktuberling/sounds/it.soundtheme
 %{_datadir}/ktuberling/sounds/it/*
+%{_datadir}/step/objinfo/l10n/it/
 %{_docdir}/HTML/it/*
 %{_mandir}/it/man1/*
 %{_mandir}/it/man6/*
@@ -1214,6 +1216,7 @@ Conflicts:	khelpcenter = 16.04.0-1
 %{_datadir}/katepart/syntax/logohighlightstyle.nb.xml
 %{_datadir}/kturtle/data/logokeywords.nb.xml
 %{_datadir}/kturtle/examples/nb/*.logo
+%{_docdir}/HTML/nb/*
 %endif
 
 #------------------------------------------------------------------------------
@@ -1723,6 +1726,7 @@ Conflicts:	khelpcenter = 16.04.0-1
 %{_datadir}/klettres/uk/
 %{_datadir}/ktuberling/sounds/uk.soundtheme
 %{_datadir}/ktuberling/sounds/uk/*
+%{_datadir}/step/objinfo/l10n/uk/
 %{_docdir}/HTML/uk/*
 %{_mandir}/uk/man1/*
 %{_mandir}/uk/man6/*
